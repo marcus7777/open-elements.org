@@ -1,0 +1,44 @@
+{
+  "name": "polymer-starter-kit",
+  "private": true,
+  "dependencies": {
+    "iron-elements": "marcus7777/iron-elements",
+    "paper-elements": "marcus7777/paper-elements-1",
+    "google-web-components": "marcus7777/google-web-components",
+    "molecules": "marcus7777/molecules#master",
+    "utilities": "marcus7777/utilities#master",
+    "gold-elements": "PolymerElements/gold-elements#master",
+    "platinum-elements": "PolymerElements/platinum-elements#master",
+    "neon-elements": "PolymerElements/neon-elements#master",
+    "polymer": "Polymer/polymer#master",
+    "app-router": "blasten/app-router#master",
+    "pushstate-anchor": "~0.3.0",
+    "color": "~2.5.0",
+    "hydrolysis": "PolymerLabs/hydrolysis#^1.11.0",
+    "iron-behaviors": "PolymerElements/iron-behaviors#master",
+    "edit-in-jsbin": "marcus7777/edit-in-jsbin#master",
+    "lunr-js": "marcus7777/lunr-js#master",
+    "development": "marcus7777/development#master",
+    "open-elements": "marcus7777/open-elements"
+  },
+  "devDependencies": {
+    "web-component-tester": "*"
+  },
+  "resolutions": {
+    "edit-in-jsbin": "master",
+    "lunr-js": "master",
+    "iron-behaviors": "master",
+    "iron-test-helpers": "master",
+    "iron-icons": "master",
+    "iron-icon": "master",
+    "paper-styles": "~1.0.11",
+    "polymer": "master",
+    "firebase-element": "master",
+    "show-once": "ab5d88ca64",
+    "geo-hash-data": "master",
+    "sortable-list": "master",
+    "mediator-data": "master",
+    "pouch-db": "master",
+    "moment": "2.11.2"
+  }
+}
