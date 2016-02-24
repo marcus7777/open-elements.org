@@ -1,6 +1,3 @@
-{
-  "name": "open-elements.org",
-  "dependencies": {
     "iron-elements": "marcus7777/iron-elements",
     "paper-elements": "marcus7777/paper-elements-1",
     "google-web-components": "marcus7777/google-web-components",
@@ -22,25 +19,3 @@
     "firebase-element-extended": "MeTaNoV/firebase-element-extended#master",
     "iron-swipeable-pages": "MeTaNoV/iron-swipeable-pages#master",
     "emoji-text": "PolymerLabs/emoji-text#master"
-  },
-  "devDependencies": {
-    "web-component-tester": "*"
-  },
-  "resolutions": {
-    "edit-in-jsbin": "master",
-    "lunr-js": "master",
-    "iron-behaviors": "master",
-    "iron-test-helpers": "master",
-    "iron-icons": "master",
-    "iron-icon": "master",
-    "paper-styles": "^1.1.2",
-    "polymer": "master",
-    "firebase-element": "master",
-    "show-once": "master",
-    "geo-hash-data": "master",
-    "sortable-list": "master",
-    "mediator-data": "master",
-    "pouch-db": "master",
-    "moment": "2.11.2"
-  }
-}
