@@ -19,7 +19,10 @@
     "edit-in-jsbin": "marcus7777/edit-in-jsbin#master",
     "lunr-js": "marcus7777/lunr-js#master",
     "development": "marcus7777/development#master",
-    "open-elements": "marcus7777/open-elements"
+    "open-elements": "marcus7777/open-elements",
+    "firebase-element-extended": "MeTaNoV/firebase-element-extended#^1.0.2",
+    "iron-swipeable-pages": "MeTaNoV/iron-swipeable-pages#^1.0.7",
+    "emoji-text": "PolymerLabs/emoji-text#^1.0.1"
   },
   "devDependencies": {
     "web-component-tester": "*"
