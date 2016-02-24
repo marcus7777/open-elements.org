@@ -1,6 +1,5 @@
 {
-  "name": "polymer-starter-kit",
-  "private": true,
+  "name": "open-elements.org",
   "dependencies": {
     "iron-elements": "marcus7777/iron-elements",
     "paper-elements": "marcus7777/paper-elements-1",
