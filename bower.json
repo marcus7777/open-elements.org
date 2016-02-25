@@ -21,7 +21,12 @@
     "open-elements": "marcus7777/open-elements#master",
     "firebase-element-extended": "MeTaNoV/firebase-element-extended#master",
     "iron-swipeable-pages": "MeTaNoV/iron-swipeable-pages#master",
-    "emoji-text": "PolymerLabs/emoji-text#master"
+    "emoji-text": "PolymerLabs/emoji-text#master",
+    "clipboard-input": "jshcrowthe/clipboard-input#^1.0.0",
+    "poly-ical": "robrez/poly-ical#master",
+    "vaadin-icons": "vaadin/vaadin-icons#^1.0.0-alpha2",
+    "vaadin-upload": "vaadin/vaadin-upload#^1.0.0-alpha1",
+    "vaadin-grid": "vaadin/vaadin-grid#^1.0.0"
   },
   "devDependencies": {
     "web-component-tester": "*"

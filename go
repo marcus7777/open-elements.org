@@ -13,6 +13,8 @@ do
   pcregrep -M '"dependencies":[^\}]*' ${D} | grep '": "'  >> dist/bowerList 
 done
 
+ls -d bower_components/*/test/ > dist/tests
+
 cp app/* dist/ -r &&\
 rsync -a ./dist/ root@bikefix.co.uk:/var/www/html/open-elements.org/
 firebase deploy 

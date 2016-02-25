@@ -20,6 +20,8 @@ bower_components/app-router/app-router.html
 bower_components/blueimp-load-image/index.html
 bower_components/byutv-jsonp/byutv-jsonp.html
 bower_components/byutv-jsonp/index.html
+bower_components/clipboard-input/clipboard-input.html
+bower_components/clipboard-input/index.html
 bower_components/clone-data/clone-data.html
 bower_components/commits-element/commits-element.html
 bower_components/commits-element/index.html
@@ -464,6 +466,9 @@ bower_components/platinum-sw/platinum-sw-fetch.html
 bower_components/platinum-sw/platinum-sw-import-script.html
 bower_components/platinum-sw/platinum-sw-offline-analytics.html
 bower_components/platinum-sw/platinum-sw-register.html
+bower_components/poly-ical/ical-js-import.html
+bower_components/poly-ical/index.html
+bower_components/poly-ical/poly-ical.html
 bower_components/poly-theme-builder/elements.html
 bower_components/poly-theme-builder/index.html
 bower_components/poly-theme-builder/poly-color-picker.html
@@ -558,6 +563,11 @@ bower_components/vaadin-combo-box/vaadin-overlay-behavior.html
 bower_components/vaadin-grid/index.html
 bower_components/vaadin-grid/vaadin-grid-doc.html
 bower_components/vaadin-grid/vaadin-grid.html
+bower_components/vaadin-icons/index.html
+bower_components/vaadin-icons/vaadin-icons.html
+bower_components/vaadin-upload/index.html
+bower_components/vaadin-upload/vaadin-upload-file.html
+bower_components/vaadin-upload/vaadin-upload.html
 bower_components/voice-elements/index.html
 bower_components/web-animations-js/web-animations.html
 bower_components/webcomponents-update-reminder/index.html
