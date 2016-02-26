@@ -23,7 +23,7 @@ cat dist/bowerListUnsorted | tr -s [:space:] | sort -u --ignore-case --ignore-no
 
 rm dist/bowerListUnsorted
 
-grep rel=\"import\".*\"../  */*/*-*.html > dist/imports
+grep rel=\"import\".*\"../[^\"]*  bower_components/*-*/*-*.html -o > dist/imports
 
 ls -d bower_components/*/test/ > dist/tests
 
