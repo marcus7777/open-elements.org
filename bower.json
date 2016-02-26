@@ -24,7 +24,7 @@
     "emoji-text": "PolymerLabs/emoji-text#master",
     "clipboard-input": "jshcrowthe/clipboard-input#^1.0.0",
     "poly-ical": "robrez/poly-ical#master",
-    "vaadin-icons": "vaadin/vaadin-icons#^1.0.0-alpha2",
+    "vaadin-icons": "vaadin/vaadin-icons#master",
     "vaadin-upload": "vaadin/vaadin-upload#^1.0.0-alpha1",
     "vaadin-grid": "vaadin/vaadin-grid#^1.0.0"
   },
