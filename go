@@ -10,8 +10,13 @@ done
 pcregrep -M '"dependencies":[^\}]*' bower.json | grep '": "' > dist/bowerList
 for D in `ls -d bower_components/*-*/bower.json`
 do
-  pcregrep -M '"dependencies":[^\}]*' ${D} | grep '": "'  >> dist/bowerList 
+  pcregrep -M '"dependencies":[^\}]*' ${D} | grep '": "'  >> dist/bowerListUnsorted 
 done
+
+
+cat dist/bowerListUnsorted | tr -s [:space:] | sort -u --ignore-case --ignore-nonprinting --version-sort  > dist/bowerList
+
+rm dist/bowerListUnsorted
 
 ls -d bower_components/*/test/ > dist/tests
 
