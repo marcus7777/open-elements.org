@@ -1,5 +1,5 @@
-ls bower_components/*/*.html > app/list-of-elements &&\
 rm dist/ -rf && mkdir dist &&\
+ls bower_components/*/*-*.html > dist/list-of-elements &&\
 cp bower_components/ dist/bower_components/ -r &&\
 cp bower.json dist/bower.json -r &&\
 for D in `ls -d bower_components/*-*`
