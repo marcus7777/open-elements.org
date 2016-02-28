@@ -25,8 +25,7 @@
     "clipboard-input": "jshcrowthe/clipboard-input#^1.0.0",
     "poly-ical": "robrez/poly-ical#master",
     "vaadin-icons": "vaadin/vaadin-icons#master",
-    "vaadin-upload": "vaadin/vaadin-upload#^1.0.0-alpha1",
-    "vaadin-grid": "vaadin/vaadin-grid#^1.0.0"
+    "vaadin-upload": "vaadin/vaadin-upload#^1.0.0-alpha1"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -38,7 +37,7 @@
     "iron-test-helpers": "master",
     "iron-icons": "master",
     "iron-icon": "master",
-    "paper-styles": "^1.1.2",
+    "paper-styles": "master",
     "polymer": "master",
     "firebase-element": "master",
     "show-once": "master",
