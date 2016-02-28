@@ -18,7 +18,7 @@
     "google-youtube-upload": "GoogleWebComponents/google-youtube-upload#master",
     "google-streetview-pano": "GoogleWebComponents/google-streetview-pano#master",
     "google-recaptcha":"GoogleWebComponents/google-recaptcha#master",
-    "google-drive":"GoogleWebComponents/google-drive"
+    "google-drive":"GoogleWebComponents/google-drive",
     "molecules": "marcus7777/molecules#master",
     "utilities": "marcus7777/utilities#master",
     "gold-elements": "PolymerElements/gold-elements#master",
