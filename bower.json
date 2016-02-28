@@ -223,13 +223,13 @@
     "mediator-data": "master",
     "pouch-db": "master",
     "moment": "2.11.2",
-    "iron-ajax": "~1.1.1",
-    "iron-list": "^1.2.6",
-    "paper-input": "^1.0.9",
-    "paper-filter": "0.0.4",
-    "google-apis": "^1.1.0",
-    "google-signin": "^1.0",
-    "google-chart": "^1.0.0",
+    "iron-ajax": "master",
+    "iron-list": "master",
+    "paper-input": "master",
+    "paper-filter": "master",
+    "google-apis": "master",
+    "google-signin": "master",
+    "google-chart": "master",
     "lodash": "^4.5.1"
   }
 }
