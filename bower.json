@@ -198,7 +198,8 @@
     "poly-ical": "robrez/poly-ical#master",
     "vaadin-icons": "vaadin/vaadin-icons#master",
     "vaadin-upload": "vaadin/vaadin-upload#^1.0.0-alpha1",
-    "paper-filter": "marcus7777/paper-filter#^0.0.4"
+    "paper-filter": "marcus7777/paper-filter#^0.0.4",
+    "hi9-header": "HackITtoday/hi9-header"
   },
   "devDependencies": {
     "web-component-tester": "*"

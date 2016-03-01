@@ -1,30 +1,40 @@
-rm dist/ -rf && mkdir dist &&\
-bower prune &&\
+rm dist/ -rf && mkdir dist
+echo "clean start"
+
+bower prune 
+echo "pruned bower"
 
 ls bower_components/*/*-*.html > dist/list-of-elements
-cat dist/list-of-elements | grep sweet
+echo "make list of elements"
 
 grep \"_source\":\  bower_components/*/.bower.json | grep git:\/\/[^\"]*-[^\"]*[^\"]* -o > dist/gitList
 grep \"_release\":\[^,]*  bower_components/*/.bower.json -o >> dist/gitList
+echo "make list of _source and _release"
 
 cp bower_components/ dist/bower_components/ -r
+echo "copied bower_components in to dist"
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
 do
   rm ${T} -f
 done 
+echo "deleted files with ga.js"
 
 cp bower.json dist/bower.json -r 
 for D in `ls -d bower_components/*-*`
 do
   cp -n bower_components/polymer/index.html dist/${D}/index.html
 done
+echo "copied polymers doc gen index in to all elements with out a index"
 
 grep rel=\"import\".*\"../[^\"]*  bower_components/*-*/*-*.html -o > dist/imports
 
 ls -d bower_components/*/test/ > dist/tests
+echo "make list of tests"
 
-cp app/* dist/ -r &&\
+cp app/* dist/ -r
+echo "add app"
+
 echo uploading
 rsync -a ./dist/ root@bikefix.co.uk:/var/www/html/open-elements.org/ --size-only
 echo up
