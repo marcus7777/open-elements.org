@@ -1,15 +1,20 @@
 rm dist/ -rf && mkdir dist &&\
-ls bower_components/*/*-*.html > dist/list-of-elements &&\
+bower prune &&\
+
+ls bower_components/*/*-*.html > dist/list-of-elements
+cat dist/list-of-elements | grep sweet
+
 grep \"_source\":\  bower_components/*/.bower.json | grep git:\/\/[^\"]*-[^\"]*[^\"]* -o > dist/gitList
 grep \"_release\":\[^,]*  bower_components/*/.bower.json -o >> dist/gitList
-cp bower_components/ dist/bower_components/ -r &&\
+
+cp bower_components/ dist/bower_components/ -r
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
 do
   rm ${T} -f
 done 
 
-cp bower.json dist/bower.json -r &&\
+cp bower.json dist/bower.json -r 
 for D in `ls -d bower_components/*-*`
 do
   cp -n bower_components/polymer/index.html dist/${D}/index.html
