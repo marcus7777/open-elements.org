@@ -4,6 +4,7 @@ echo "clean start"
 bower prune 
 echo "pruned bower"
 
+
 ls bower_components/*/*-*.html > dist/list-of-elements
 echo "make list of elements"
 
@@ -21,6 +22,7 @@ echo "  wct.conf.json"
 
 
 cp bower_components/ dist/bower_components/ -r
+rsync -a gitRepos/ dist/bower_components/
 echo "copied bower_components in to dist"
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
