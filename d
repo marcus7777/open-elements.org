@@ -7,9 +7,18 @@ echo "pruned bower"
 ls bower_components/*/*-*.html > dist/list-of-elements
 echo "make list of elements"
 
+echo "make list of"
 grep \"_source\":\  bower_components/*/.bower.json | grep git:\/\/[^\"]*-[^\"]*[^\"]* -o > dist/gitList
+echo "  _source"
 grep \"_release\":\[^,]*  bower_components/*/.bower.json -o >> dist/gitList
-echo "make list of _source and _release"
+echo "  _release"
+ls bower_components/*/bower.json >> dist/gitList
+echo "  bower.json"
+ls bower_components/*/.travis.yml >> dist/gitList
+echo "  .travis.yml"
+ls bower_components/*/wct.conf.json >> dist/gitList
+echo "  wct.conf.json"
+
 
 cp bower_components/ dist/bower_components/ -r
 echo "copied bower_components in to dist"
