@@ -27,9 +27,9 @@ cp bower_components/ dist/bower_components/ -r
 rsync -a gitRepos/ dist/bower_components/
 echo "copied bower_components in to dist"
 
-for E in `ls bower_components/*-*/ -d`
+for E in `ls bower_components/*-* -d`
 do
-  pcregrep -M "(?=<template>)(\n|.)*(?=<\/template>)" ${E}*-*.html > dist/${E}.tpl.html
+  pcregrep -M "(?=<template>)(\n|.)*(?=<\/template>)" ${E}/*-*.html > dist/${E}/.tpl.html
 done
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
