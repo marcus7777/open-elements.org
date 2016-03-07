@@ -5,3 +5,10 @@ do
   git clone ${T}
   cd ..
 done 
+
+for D in `ls bower_components/`
+do
+  cd gitRepos/${D}/ && \
+  git rev-list --all --header > ../../dist/bower_components/${D}/gitlog && \
+  cd ../..
+done 

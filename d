@@ -1,6 +1,3 @@
-rm dist/ -rf && mkdir dist
-echo "clean start"
-
 bower prune 
 echo "pruned bower"
 
@@ -23,14 +20,14 @@ ls bower_components/*/wct.conf.json >> dist/gitList
 echo "  wct.conf.json"
 
 
-cp bower_components/ dist/bower_components/ -r
-rsync -a gitRepos/ dist/bower_components/
-echo "copied bower_components in to dist"
+echo "coping in to dist bower_components and gitRepos"
+rsync -a bower_components/ dist/bower_components/ && rsync -a gitRepos/ dist/bower_components/
+echo "copied"
 
-for E in `ls bower_components/*-* -d`
-do
-  pcregrep -M "(?=<template>)(\n|.)*(?=<\/template>)" ${E}/*-*.html > dist/${E}/.tpl.html
-done
+#for E in `ls bower_components/*-* -d`
+#do
+  #pcregrep -M "(?=<template>)(\n|.)*(?=<\/template>)" ${E}/*-*.html > dist/${E}/.tpl.html
+#done
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
 do
@@ -38,7 +35,7 @@ do
 done 
 echo "deleted files with ga.js"
 
-cp bower.json dist/bower.json -r 
+rsync bower.json dist/bower.json
 for D in `ls -d bower_components/*-*`
 do
   cp -n bower_components/polymer/index.html dist/${D}/index.html
@@ -50,11 +47,9 @@ grep rel=\"import\".*\"../[^\"]*  bower_components/*-*/*-*.html -o > dist/import
 ls -d bower_components/*/test/ > dist/tests
 echo "make list of tests"
 
-cp app/* dist/ -r
+rsync -a app/* dist/
 echo "add app"
 
 echo uploading
-rsync -a ./dist/ root@bikefix.co.uk:/var/www/html/open-elements.org/ --size-only
-echo up
 rsync -a ./dist/ root@bikefix.co.uk:/var/www/html/open-elements.org/
 echo inSync

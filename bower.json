@@ -201,7 +201,9 @@
     "paper-filter": "marcus7777/paper-filter#^0.0.4",
     "hi9-header": "HackITtoday/hi9-header",
     "short-list": "marcus7777/short-list",
-    "tristate-checkbox": "johnthad/tristate-checkbox"
+    "tristate-checkbox": "johnthad/tristate-checkbox",
+    "git-time": "marcus7777/git-time",
+    "smarter-leaner": "Hi9Here/smarter-leaner"
   },
   "devDependencies": {
     "web-component-tester": "*"
