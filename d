@@ -24,10 +24,10 @@ echo "coping in to dist bower_components and gitRepos"
 rsync -a bower_components/ dist/bower_components/ && rsync -a gitRepos/ dist/bower_components/
 echo "copied"
 
-#for E in `ls bower_components/*-* -d`
-#do
-  #pcregrep -M "(?=<template>)(\n|.)*(?=<\/template>)" ${E}/*-*.html > dist/${E}/.tpl.html
-#done
+for E in `ls bower_components/*-* -d`
+do
+  pcregrep -M "(?=<template>)(\n|.)*(?=<\/template>)" ${E}/*-*.html > dist/${E}/.tpl.html
+done
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
 do
@@ -36,9 +36,9 @@ done
 echo "deleted files with ga.js"
 
 rsync bower.json dist/bower.json
-for D in `ls -d bower_components/*-*`
+for D in `ls -d bower_components/*`
 do
-  cp -n bower_components/polymer/index.html dist/${D}/index.html
+  cp -n bower_components/iron-doc-viewer/index.html dist/${D}/index.html
 done
 echo "copied polymers doc gen index in to all elements with out a index"
 

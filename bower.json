@@ -203,7 +203,8 @@
     "short-list": "marcus7777/short-list",
     "tristate-checkbox": "johnthad/tristate-checkbox",
     "git-time": "marcus7777/git-time",
-    "smarter-leaner": "Hi9Here/smarter-leaner"
+    "smarter-leaner": "Hi9Here/smarter-leaner",
+    "card-deck": "marcus7777/card-deck"
   },
   "devDependencies": {
     "web-component-tester": "*"
