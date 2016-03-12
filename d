@@ -1,10 +1,10 @@
-bower prune 
 echo "pruned bower"
+bower prune 
 
-sh g
 echo "git local"
-ls bower_components/*/*-*.html > dist/list-of-elements
+sh g
 echo "make list of elements"
+ls bower_components/*/*-*.html > dist/list-of-elements
 
 
 echo "make list of"
@@ -21,7 +21,7 @@ echo "  wct.conf.json"
 
 
 echo "coping in to dist bower_components and gitRepos"
-rsync -a bower_components/ dist/bower_components/ && rsync -a gitRepos/ dist/bower_components/
+rsync -a bower_components/ dist/bower_components/ && rsync -a gitRepos/ dist/bower_components/ --exclude .git
 echo "copied"
 
 for E in `ls bower_components/*-* -d`
@@ -51,5 +51,5 @@ rsync -a app/* dist/
 echo "add app"
 
 echo uploading
-rsync -a ./dist/ root@bikefix.co.uk:/var/www/html/open-elements.org/
+rsync -a ./dist/ root@bikefix.co.uk:/var/www/html/open-elements.org/ --exclude .git --delete-excluded
 echo inSync

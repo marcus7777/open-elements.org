@@ -192,7 +192,7 @@
     "frontpage-box": "HackITtoday/frontpage-box",
     "open-elements": "marcus7777/open-elements#master",
     "firebase-element-extended": "MeTaNoV/firebase-element-extended#master",
-    "iron-swipeable-pages": "MeTaNoV/iron-swipeable-pages#master",
+    "iron-swipeable-pages": "MeTaNoV/iron-swipeable-pages#^1.0.7",
     "emoji-text": "PolymerLabs/emoji-text#master",
     "clipboard-input": "jshcrowthe/clipboard-input#^1.0.0",
     "poly-ical": "robrez/poly-ical#master",
@@ -204,7 +204,13 @@
     "tristate-checkbox": "johnthad/tristate-checkbox",
     "git-time": "marcus7777/git-time",
     "smarter-leaner": "Hi9Here/smarter-leaner",
-    "card-deck": "marcus7777/card-deck"
+    "card-deck": "marcus7777/card-deck",
+    "dom-repeat-n": "MeTaNoV/dom-repeat-n#^1.0.2",
+    "tem-waypoint": "elegantmonkeys/tem-waypoint#^1.0.0",
+    "iron-data-table": "Saulis/iron-data-table#^1.0.0-alpha3",
+    "l2t-context-menu": "Link2Twenty/l2t-context-menu",
+    "iron-accordions": "alijaya/iron-accordions#^1.0.0",
+    "paper-cut": "alijaya/paper-cut#^0.0.1"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -240,7 +246,7 @@
     "iron-doc-viewer": "^1.0.1",
     "iron-fit-behavior": "^1.0.0",
     "iron-dropdown": "^1.0.0",
-    "iron-flex-layout": "1.3.0",
+    "iron-flex-layout": "master",
     "iron-form": "^1.0.10",
     "iron-form-element-behavior": "^1.0.4",
     "iron-a11y-keys": "1.0.4",
@@ -251,7 +257,7 @@
     "iron-input": "^1.0.5",
     "iron-localstorage": "1.0.5",
     "iron-media-query": "1.0.8",
-    "iron-overlay-behavior": "1.4.1",
+    "iron-overlay-behavior": "master",
     "iron-menu-behavior": "^1.1.0",
     "iron-pages": "^1.0.0",
     "iron-range-behavior": "^1.0.0",
@@ -286,7 +292,7 @@
     "paper-toast": "^1.0.0",
     "paper-tabs": "^1.0.0",
     "paper-toolbar": "^1.0.0",
-    "paper-toggle-button": "1.1.1",
+    "paper-toggle-button": "master",
     "paper-tooltip": "1.1.2",
     "paper-ripple": "^1.0.4",
     "vellum-chip": "4e82dce74d",
@@ -294,6 +300,10 @@
     "paper-chip": "~1.0.0",
     "marked-element": "1.1.3",
     "paper-card": "^1.0.0",
-    "pair-production": "1971d15ad6"
+    "pair-production": "1971d15ad6",
+    "app-globals": "master",
+    "html-edit": "master",
+    "open-elements": "0f0ca5d4e0",
+    "iron-swipeable-pages": "master"
   }
 }
