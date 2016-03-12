@@ -1,0 +1,48 @@
+{
+      "00 Jobs": {
+        "image": "/images/card-images/Universal-Jobmatch-190x80.jpg",
+        "tagged": [
+          "dch",
+          "yhg"
+        ],
+        "title": "Job Search",
+        "type": "Jobs",
+        "url": "deck:",
+        "value": "Universal Jobs Match"
+      },
+      "02 CAB": {
+        "image": "/images/card-images/CAB-Logo-190x80.jpg",
+        "title": "CAB",
+        "type": "Advice",
+        "url": "deck:",
+        "value": "Citizens Advice"
+      },
+      "05 Ebay": {
+        "image": "/images/card-images/ebay-Use-190x80.jpg",
+        "title": "Online Shopping & Auctions",
+        "type": "Shopping",
+        "url": "http://www.ebay.co.uk/",
+        "value": "Ebay"
+      },
+      "07 Twitter": {
+        "image": "/images/card-images/twitter-jpeg-Use-190x80.jpg",
+        "title": "Twitter",
+        "type": "Social Media",
+        "url": "https://twitter.com/",
+        "value": "Twitter"
+      },
+      "08 Facebook": {
+        "image": "/images/card-images/Facebook-logo-Jpeg-Use-190x80.jpg",
+        "title": "Facebook",
+        "type": "Social Media",
+        "url": "https://www.facebook.com",
+        "value": "Facebook"
+      },
+      "09 Gmail": {
+        "image": "/images/card-images/Gmail_logo-Use-190x80.jpg",
+        "title": "Gmail",
+        "type": "Google",
+        "url": "https://mail.google.com/",
+        "value": "Gmail"
+      }
+}

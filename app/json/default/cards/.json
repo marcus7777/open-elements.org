@@ -1,0 +1,335 @@
+{
+      "00 Jobs": {
+        "image": "/images/card-images/Universal-Jobmatch-190x80.jpg",
+        "tagged": [
+          "dch",
+          "yhg"
+        ],
+        "title": "Job Search",
+        "type": "Jobs",
+        "url": "https://jobsearch.direct.gov.uk/JobSearch/PowerSearch.aspx?redirect=http%3a%2f%2fjobsearch.direct.gov.uk%2fhome.aspx&pp=25&where=Penzance%2c%20Cornwall%2c%20England&sort=rv.dt.di&rad=20&rad_units=miles&re=134",
+        "value": "Universal Jobs Match"
+      },
+      "02 CAB": {
+        "image": "/images/card-images/CAB-Logo-190x80.jpg",
+        "title": "CAB",
+        "type": "Advice",
+        "url": "http://www.citizensadvice.org.uk/",
+        "value": "Citizens Advice"
+      },
+      "05 Ebay": {
+        "image": "/images/card-images/ebay-Use-190x80.jpg",
+        "title": "Online Shopping & Auctions",
+        "type": "Shopping",
+        "url": "http://www.ebay.co.uk/",
+        "value": "Ebay"
+      },
+      "07 Twitter": {
+        "image": "/images/card-images/twitter-jpeg-Use-190x80.jpg",
+        "title": "Twitter",
+        "type": "Social Media",
+        "url": "https://twitter.com/",
+        "value": "Twitter"
+      },
+      "08 Facebook": {
+        "image": "/images/card-images/Facebook-logo-Jpeg-Use-190x80.jpg",
+        "title": "Facebook",
+        "type": "Social Media",
+        "url": "https://www.facebook.com",
+        "value": "Facebook"
+      },
+      "09 Gmail": {
+        "image": "/images/card-images/Gmail_logo-Use-190x80.jpg",
+        "title": "Gmail",
+        "type": "Google",
+        "url": "https://mail.google.com/",
+        "value": "Gmail"
+      },
+      "11 Google Search": {
+        "image": "/images/card-images/Google-Use-190x80.jpg",
+        "title": " Google Search",
+        "type": "Google",
+        "url": "https://www.google.co.uk/",
+        "value": " Google Search"
+      },
+      "12 Monster": {
+        "image": "/images/card-images/monster-Use-190x80.jpg",
+        "title": "Monster",
+        "type": "Jobs",
+        "url": "http://www.monster.co.uk/?disRe=true",
+        "value": "Monster"
+      },
+      "13 Skype": {
+        "image": "/images/card-images/skype-logo-use-190x80-jpeg.jpg",
+        "title": "Skype",
+        "type": "Social Media",
+        "url": "http://skypeforchromebook.com/",
+        "value": "Skype"
+      },
+      "14 Gov Services": {
+        "image": "/images/card-images/GOV-Use-190x80.jpg",
+        "title": "Gov Services",
+        "type": "Services",
+        "url": "http://skypeforchromebook.com/",
+        "value": "Gov Services"
+      },
+      "15 Money Saving Expert": {
+        "image": "/images/card-images/Money-Saving-Expert-190x80.jpg",
+        "title": "Save Money",
+        "type": "Finance",
+        "url": "http://www.moneysavingexpert.com/",
+        "value": "Money Saving Expert"
+      },
+      "16 Go Compare": {
+        "image": "/images/card-images/Go-Compare.jpg",
+        "title": "Price Comparison",
+        "type": "Finance",
+        "url": "http://www.gocompare.com/",
+        "value": "Go Compare"
+      },
+      "17 Compare the Market": {
+        "image": "/images/card-images/compare-the-market-.jpg",
+        "title": "Price Comparison",
+        "type": "Finance",
+        "url": "http://www.comparethemarket.com/",
+        "value": "Compare the Market"
+      },
+      "18 Tesco": {
+        "image": "/images/card-images/Tesco.jpg",
+        "title": "Online Shopping",
+        "type": "Shopping",
+        "url": "http://www.tesco.com/",
+        "value": "Tesco"
+      },
+      "19 Iceland": {
+        "image": "/images/card-images/Iceland.jpg",
+        "title": "Online Shopping",
+        "type": "Shopping",
+        "url": "http://groceries.iceland.co.uk/?gclid=CKP-6oGotcYCFYgIwwodghEGoQ",
+        "value": "Iceland"
+      },
+      "20 Western Power": {
+        "image": "/images/card-images/Western-Power.jpg",
+        "title": "Electrics",
+        "type": "Services",
+        "url": "http://www.westernpower.co.uk/",
+        "value": "Western Power"
+      },
+      "21 Southwest Water": {
+        "image": "/images/card-images/Southwest-Water.jpg",
+        "title": "Water",
+        "type": "Services",
+        "url": "http://www.southwestwater.co.uk/",
+        "value": "Southwest Water"
+      },
+      "22 Khan Academy": {
+        "image": "/images/card-images/Khan-Academy-Logo-Use-190x80.jpg",
+        "title": "Khan Academy",
+        "type": "Education",
+        "url": "https://www.khanacademy.org/",
+        "value": "Khan Academy"
+      },
+      "23 Shelter": {
+        "image": "/images/card-images/shelter-logo-1-Use-190x80.jpg",
+        "title": "Housing Charity",
+        "type": "Housing",
+        "url": "http://www.shelter.org.uk/",
+        "value": "Shelter"
+      },
+      "24 What's On": {
+        "image": "/images/card-images/whats-on-cornwall-Use-190x80.jpg",
+        "title": "In Cornwall",
+        "type": "Other",
+        "url": "http://www.whatsoncornwall.co.uk/",
+        "value": "What's On"
+      },
+      "25 U Switch": {
+        "image": "/images/card-images/USwitch-logo-use-190x80.jpg",
+        "title": "Energy Providers",
+        "type": "Finance",
+        "url": "http://www.uswitch.com/",
+        "value": "U Switch"
+      },
+      "26 Universal Class": {
+        "image": "/images/card-images/UniversalClass_logo-Use-190x80.jpg",
+        "title": "Learn Online",
+        "type": "Education",
+        "url": "https://www.universalclass.com/",
+        "value": "Universal Class"
+      },
+      "27 Yarlington": {
+        "image": "/images/card-images/YARLINGTON-LOGO.png",
+        "title": "Yarlington Housing",
+        "type": "Housing",
+        "url": "http://www.yhg.co.uk/home.aspx",
+        "value": "Yarlington"
+      },
+      "28 Yarlington Welfare Section": {
+        "image": "http://www.yhg.co.uk/images/Responsive/YARLINGTON-LOGO.png",
+        "title": "Yarlington Welfare",
+        "type": "Housing",
+        "url": "http://www.yhg.co.uk/resident-zone/WelfareBenefitChanges.aspx",
+        "value": "Yarlington Welfare"
+      },
+      "30 Energy Links": {
+        "image": "http://www.energylinx.co.uk/e2c/advantagesw/index.html?go=get_aff_logo",
+        "title": "Energy Links",
+        "type": "Housing",
+        "url": "http://www.energylinx.co.uk/e2c/advantagesw/",
+        "value": "Energy Links"
+      },
+      "31 Yarlington Energy Section": {
+        "image": "http://www.yhg.co.uk/images/Responsive/YARLINGTON-LOGO.png",
+        "title": "Yarlington Energy Section",
+        "type": "Housing",
+        "url": "http://www.yhg.co.uk/HelpAndAdvice/EnergySavingAndCuttingCosts.aspx",
+        "value": "Energy Links"
+      },
+      "32 British Gas": {
+        "image": "http://www.britishgas.co.uk/content/dam/british-gas/beta/svg/bg_logo.svg",
+        "title": "British Gas",
+        "type": "Services",
+        "url": "http://www.britishgas.co.uk",
+        "value": "British Gas"
+      },
+      "33 EDF": {
+        "image": "https://switch.which.co.uk/affiliate-assets/which-switch/images/suppliers-logo/edf-logo-185889.jpg",
+        "title": "EDF",
+        "type": "Services",
+        "url": "http://www.edfenergy.com",
+        "value": "EDF"
+      },
+      "34 SSE": {
+        "image": "http://www.heraldscotland.com/resources/images/3823937/",
+        "title": "SSE",
+        "type": "Services",
+        "url": "http://www.sse.co.uk",
+        "value": "SSE"
+      },
+      "35 EON": {
+        "image": "http://www.eonenergy.com/Images/Logos/EonMainLogo.gif",
+        "title": "EON",
+        "type": "Services",
+        "url": "http://www.eonenergy.com",
+        "value": "EON"
+      },
+      "36 NPower": {
+        "image": "http://www.npower.com/idc/groups/wcms_content/@wcms/documents/digitalassets/icon_npower_logo_h70.png",
+        "title": "NPower",
+        "type": "Services",
+        "url": "http://www.npower.com",
+        "value": "NPower"
+      },
+      "37 Scottish Power": {
+        "image": "http://www.scottishpower.com/images/logo_sp.jpg",
+        "title": "Scottish Power",
+        "type": "Services",
+        "url": "http://www.scottishpower.co.uk/",
+        "value": "Scottish Power"
+      },
+      "38 Money Advice Service": {
+        "image": "https://6716c801720b2d014ddd-90dd74bb468e514261468bbc28ae4817.ssl.cf3.rackcdn.com/a/logo-sprite-en-0a53f4837db194617a10b4a7d49f53a6.png",
+        "title": "Money Advice Service",
+        "type": "Advice",
+        "url": "https://www.moneyadviceservice.org.uk/en",
+        "value": "Money Advice"
+      },
+      "39 BBC": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/BBC.svg/200px-BBC.svg.png",
+        "title": "BBC",
+        "type": "Other",
+        "url": "http://www.bbc.co.uk/",
+        "value": "BBC TV"
+      },
+      "40 South Somerset District Council": {
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/59/South_Somerset_logo.png",
+        "title": "South Somerset",
+        "type": "Services",
+        "url": "http://www.southsomerset.gov.uk/",
+        "value": "South Somerset District Council"
+      },
+      "41 Sedgemoor": {
+        "image": "http://www.sedgemoor.gov.uk/sedgemoor/images/common/logo-02.png",
+        "title": "Sedgemoor",
+        "type": "Services",
+        "url": "http://www.sedgemoor.gov.uk/",
+        "value": "Sedgemoor Council"
+      },
+      "42 Somerset Council": {
+        "image": "http://www.somerset.gov.uk/EasySiteWeb/EasySite/StyleData/Somerset_gov_uk_MASTER/Images/SCC_BW_LOGO_HORIZ.gif",
+        "title": "Somerset Council",
+        "type": "Services",
+        "url": "http://www.somerset.gov.uk/",
+        "value": "Somerset Council"
+      },
+      "43 Somerset Homefinder": {
+        "image": "http://www.homesinsedgemoor.org/media/images/n/q/homefinder__v_small1.jpg",
+        "title": "Somerset Homefinder",
+        "type": "Housing",
+        "url": "http://www.homefindersomerset.co.uk/Data/ASPPages/1/30.aspx",
+        "value": "Housing"
+      },
+      "44 Yarlington Smarterbuys": {
+        "image": "http://yhg.sbstore.org/images/logo.png",
+        "title": "Yarlington Smarterbuys",
+        "type": "Shopping",
+        "url": "http://yhg.sbstore.org/home",
+        "value": "Discount Deals"
+      },
+      "45 Do it volunteering": {
+        "image": "https://do-it.org/img/header/do-it-large.png",
+        "title": "Do it volunteering",
+        "type": "Other",
+        "url": "https://do-it.org/",
+        "value": "Volunteering"
+      },
+      "46 Indeed": {
+        "image": "http://www.indeed.co.uk/images/job_search_indeed_en_GB.png",
+        "title": "Indeed",
+        "type": "Jobs",
+        "url": "http://www.indeed.co.uk",
+        "value": "Job Search"
+      },
+      "47 Reed": {
+        "image": "http://www.reed.co.uk/resources/images/header-logo-signed-out-homepage.png",
+        "title": "Reed",
+        "type": "Jobs",
+        "url": "http://www.reed.co.uk/",
+        "value": "Reed Job Search"
+      },
+      "48 Learn Direct": {
+        "image": "http://www.learndirect.com/skin/frontend/learndirect/default/images/logo-learndirect.svg",
+        "title": "Learn Direct",
+        "type": "Education",
+        "url": "http://www.learndirect.com/",
+        "value": "Find Training"
+      },
+      "49 Apprenticeships": {
+        "image": "http://www.apprenticeships.gov.uk/wp-content/themes/apprenticeships/images/logo.png",
+        "title": "Apprenticeships",
+        "type": "Education",
+        "url": "http://www.apprenticeships.gov.uk/",
+        "value": "Become a Apprentice"
+      },
+      "50 NHS Jobs": {
+        "image": "http://www.wales.nhs.uk/sitesplus/images/1002/nhsjobs.png",
+        "title": "NHS Jobs",
+        "type": "Jobs",
+        "url": "http://www.jobs.nhs.uk/",
+        "value": "NHS Jobs"
+      },
+      "51 Somerset Choices": {
+        "image": "http://www.somersetchoices.org.uk/img/somerset/mainlogo.png",
+        "title": "Somerset Choices",
+        "type": "Advice",
+        "url": "http://www.somersetchoices.org.uk/",
+        "value": "Advice in Somerset"
+      },
+      "52 Western Gazette": {
+        "image": "https://westgaz.thisisads.co.uk/sites/westgaz.thisisads.co.uk/siteimages/sitelogo.png?westgaz.thisisads.co.uk",
+        "title": "Western Gazette",
+        "type": "Other",
+        "url": "http://www.westerngazette.co.uk/",
+        "value": "Yeovil Newspaper"
+      }
+}
