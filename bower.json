@@ -182,7 +182,6 @@
     "user-white-list": "marcus7777/user-white-list",
     "user-badges": "marcus7777/user-badges",
     "app-layout": "PolymerLabs/app-layout#master",
-    "pouch-db": "marcus7777/pouch-db#master",
     "laterooms-rate": "marcus7777/laterooms-rate#master",
     "ean-rates": "marcus7777/ean-rates",
     "polymer-location-tracking": "MallingDesigns/polymer-location-tracking",
@@ -209,7 +208,12 @@
     "iron-data-table": "Saulis/iron-data-table#^1.0.0-alpha3",
     "l2t-context-menu": "Link2Twenty/l2t-context-menu",
     "iron-accordions": "alijaya/iron-accordions#^1.0.0",
-    "paper-cut": "alijaya/paper-cut#^0.0.1"
+    "paper-cut": "alijaya/paper-cut#^0.0.1",
+    "get-field": "marcus7777/get-field",
+    "add-data": "marcus7777/add-data",
+    "flatiron-director": "PolymerLabs/flatiron-director#^1.0.0",
+    "paper-context-dropdown": "marcus7777/paper-context-dropdown",
+    "paper-swatch-picker": "PolymerElements/paper-swatch-picker#^1.0.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -228,7 +232,6 @@
     "geo-hash-data": "master",
     "sortable-list": "master",
     "mediator-data": "master",
-    "pouch-db": "master",
     "moment": "2.11.2",
     "iron-ajax": "master",
     "iron-list": "master",
@@ -277,10 +280,10 @@
     "paper-drawer-panel": "^1.0.0",
     "paper-header-panel": "^1.0.0",
     "paper-fab": "1.2.0",
-    "paper-item": "1.1.4",
+    "paper-item": "master",
     "paper-icon-button": "~1.0.3",
     "paper-material": "~1.0.3",
-    "paper-menu": "1.2.2",
+    "paper-menu": "master",
     "paper-menu-button": "1.0.4",
     "paper-progress": "~1.0.2",
     "paper-radio-button": "^1.0.0",
@@ -302,7 +305,7 @@
     "pair-production": "1971d15ad6",
     "app-globals": "master",
     "html-edit": "master",
-    "open-elements": "0f0ca5d4e0",
+    "open-elements": "master",
     "iron-swipeable-pages": "master"
   }
 }
