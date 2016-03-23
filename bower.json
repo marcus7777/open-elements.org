@@ -213,7 +213,9 @@
     "add-data": "marcus7777/add-data",
     "flatiron-director": "PolymerLabs/flatiron-director#^1.0.0",
     "paper-context-dropdown": "marcus7777/paper-context-dropdown",
-    "paper-swatch-picker": "PolymerElements/paper-swatch-picker#^1.0.0"
+    "paper-swatch-picker": "PolymerElements/paper-swatch-picker#^1.0.0",
+    "card-data": "Hi9Here/card-data",
+    "balloon-css": "marcus7777/balloon-css"
   },
   "devDependencies": {
     "web-component-tester": "*"
