@@ -10,16 +10,16 @@
       <title>0 balloons</title>
       <link>https://open-elements.org/</link>
       <description></description>
-      <enclosure url="audio/polymer jam episode 0.mp3" type="audio/mpeg" />
-      <source url="audio/polymer jam episode 0.mp3">Hear it here</source>
+      <enclosure url="https://open-elements.org/audio/polymer jam episode 0.mp3" type="audio/mpeg" />
+      <source url="https://open-elements.org/audio/polymer jam episode 0.mp3">Hear it here</source>
       <category>Podcasts</category>
     </item>
     <item>
       <title>1 do less and simplify</title>
       <link>https://open-elements.org/</link>
       <description>the release of carbon router and simplifying elements</description>
-      <enclosure url="audio/polymer jam episode 1.mp3" type="audio/mpeg" />
-      <source url="audio/polymer jam episode 1.mp3">Hear it here</source>
+      <enclosure url="https://open-elements.org/audio/polymer jam episode 1.mp3" type="audio/mpeg" />
+      <source url="https://open-elements.org/audio/polymer jam episode 1.mp3">Hear it here</source>
       <category>Podcasts</category>
     </item>
   </channel>
