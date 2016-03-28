@@ -216,7 +216,8 @@
     "paper-swatch-picker": "PolymerElements/paper-swatch-picker#^1.0.0",
     "card-data": "Hi9Here/card-data",
     "balloon-css": "marcus7777/balloon-css",
-    "carbon-route": "PolymerElements/carbon-route#^0.8.0"
+    "carbon-route": "PolymerElements/carbon-route#^0.8.0",
+    "link-info": "marcus7777/link-info"
   },
   "devDependencies": {
     "web-component-tester": "*"
