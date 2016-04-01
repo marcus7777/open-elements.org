@@ -217,7 +217,8 @@
     "card-data": "Hi9Here/card-data",
     "balloon-css": "marcus7777/balloon-css",
     "carbon-route": "PolymerElements/carbon-route#^0.8.0",
-    "link-info": "marcus7777/link-info"
+    "link-info": "marcus7777/link-info",
+    "fab-menu": "marcus7777/fab-menu"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -236,7 +237,7 @@
     "geo-hash-data": "master",
     "sortable-list": "master",
     "mediator-data": "master",
-    "moment": "2.11.2",
+    "moment": "2.12.0",
     "iron-ajax": "master",
     "iron-list": "master",
     "paper-input": "master",
@@ -310,6 +311,7 @@
     "app-globals": "master",
     "html-edit": "master",
     "open-elements": "master",
-    "iron-swipeable-pages": "master"
+    "iron-swipeable-pages": "master",
+    "paper-fab-transitions": "master"
   }
 }
