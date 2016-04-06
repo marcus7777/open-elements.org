@@ -218,7 +218,8 @@
     "balloon-css": "marcus7777/balloon-css",
     "carbon-route": "PolymerElements/carbon-route#^0.8.0",
     "link-info": "marcus7777/link-info",
-    "fab-menu": "marcus7777/fab-menu"
+    "fab-menu": "marcus7777/fab-menu",
+    "modernizr-element": "MeTaNoV/modernizr-element#^0.3.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
