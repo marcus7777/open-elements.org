@@ -9,7 +9,7 @@
     <item>
       <title>0 balloons</title>
       <link>https://open-elements.org/</link>
-      <description></description>
+      <description>0</description>
       <enclosure url="https://open-elements.org/audio/polymer jam episode 0.mp3" type="audio/mpeg" />
       <source url="https://open-elements.org/audio/polymer jam episode 0.mp3">Hear it here</source>
       <category>Podcasts</category>
@@ -17,9 +17,17 @@
     <item>
       <title>1 do less and simplify</title>
       <link>https://open-elements.org/</link>
-      <description>the release of carbon router and simplifying elements</description>
+      <description>The release of carbon router and simplifying elements</description>
       <enclosure url="https://open-elements.org/audio/polymer jam episode 1.mp3" type="audio/mpeg" />
       <source url="https://open-elements.org/audio/polymer jam episode 1.mp3">Hear it here</source>
+      <category>Podcasts</category>
+    </item>
+    <item>
+      <title>2 much potential</title>
+      <link>https://open-elements.org/</link>
+      <description>Accessibility to programmers</description>
+      <enclosure url="https://open-elements.org/audio/polymer jam episode 2.mp3" type="audio/mpeg" />
+      <source url="https://open-elements.org/audio/polymer jam episode 2.mp3">Hear it here</source>
       <category>Podcasts</category>
     </item>
   </channel>
