@@ -109,7 +109,7 @@
     "last-fm": "Granze/last-fm#master",
     "snap-svg": "marcus7777/snap-svg#master",
     "accounting-element": "Granze/accounting-element#master",
-    "voice-elements": "zenorocha/voice-elements#master",
+    "voice-elements": "zenorocha/voice-elements#^1.0.0",
     "pubnub-polymer": "pubnub/pubnub-polymer#master",
     "get-hash": "marcus7777/get-hash#master",
     "geo-hash-data": "marcus7777/geo-hash-data#master",
@@ -219,7 +219,10 @@
     "carbon-route": "PolymerElements/carbon-route#^0.8.0",
     "link-info": "marcus7777/link-info",
     "fab-menu": "marcus7777/fab-menu",
-    "modernizr-element": "MeTaNoV/modernizr-element#^0.3.0"
+    "modernizr-element": "MeTaNoV/modernizr-element#^0.3.0",
+    "iron-pullable-container": "MeTaNoV/iron-pullable-container#^0.8.0",
+    "hi9-login": "Hi9Here/hi9-login",
+    "spinkit-element": "MeTaNoV/spinkit-element#^1.0.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -280,7 +283,7 @@
     "paper-dialog": "1.0.4",
     "paper-checkbox": "^1.0.0",
     "paper-dialog-behavior": "^1.1.0",
-    "paper-dropdown-menu": "1.1.3",
+    "paper-dropdown-menu": "master",
     "paper-dialog-scrollable": "^1.0.0",
     "paper-button": "^1.0.6",
     "paper-drawer-panel": "^1.0.0",
@@ -313,6 +316,7 @@
     "html-edit": "master",
     "open-elements": "master",
     "iron-swipeable-pages": "master",
-    "paper-fab-transitions": "master"
+    "paper-fab-transitions": "master",
+    "voice-elements": "master"
   }
 }
