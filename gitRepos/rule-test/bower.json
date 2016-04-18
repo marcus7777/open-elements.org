@@ -1,0 +1,14 @@
+{
+  "name": "rule-test",
+  "version": "1.0.0",
+  "description": "Security rule testing",
+  "main": "rule-test.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "dependencies": {
+    "polymer": "*",
+    "iron-ajax": "PolymerElements/iron-ajax#8462a372b8"
+  }
+}
