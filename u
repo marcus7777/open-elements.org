@@ -43,6 +43,7 @@ done
 echo "copied polymers doc gen index in to all elements with out a index"
 
 grep rel=\"import\".*\"../[^\"]*  bower_components/*-*/*-*.html -o > dist/imports
+grep rel=\"import\".*\"../[^\"]*  bower_components/*-*/*/*-*.html -o >> dist/imports
 
 ls -d bower_components/*/test/ > dist/tests
 echo "make list of tests"

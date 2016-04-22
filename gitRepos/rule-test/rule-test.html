@@ -1,5 +1,5 @@
-<link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
-<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="../iron-ajax/iron-ajax.html">
+<link rel="import" href="../polymer/polymer.html">
 <!--
 `<rule-test></rule-test>` Security rule testing
 @demo demo.html
@@ -10,12 +10,12 @@
     <iron-ajax auto url="{{url}}" handle-as="json" last-response="{{data}}" last-error="{{error}}"> </iron-ajax>
     err?
     <template is="dom-if" if="{{error}}">
-      {{stringify(error)}}
+      {{_stringify(error)}}
     </template>
     <br />
     users
     <template is="dom-if" if="{{data}}">
-      {{stringify(data)}}
+      {{_stringify(data)}}
     </template>
   </template>
 </dom-module>
@@ -25,7 +25,7 @@ Polymer({
   properties: {
     url: {value:"https://g1.firebaseio.com/.json"}
   },
-  stringify: function(obj) {
+  _stringify: function(obj) {
     return JSON.stringify(obj)
   }
 })

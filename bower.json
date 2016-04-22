@@ -176,7 +176,7 @@
     "mediator-data": "marcus7777/mediator-data#master",
     "url-value": "HackITtoday/url-value#master",
     "more-routing": "PolymerLabs/more-routing#master",
-    "firebase-element": "GoogleWebComponents/firebase-element#master",
+    "firebase-element": "GoogleWebComponents/firebase-element#^1.0.12",
     "user-surveys": "marcus7777/user-surveys#master",
     "user-cards": "marcus7777/user-cards#master",
     "user-white-list": "marcus7777/user-white-list",
@@ -222,7 +222,12 @@
     "modernizr-element": "MeTaNoV/modernizr-element#^0.3.0",
     "iron-pullable-container": "MeTaNoV/iron-pullable-container#^0.8.0",
     "hi9-login": "Hi9Here/hi9-login",
-    "spinkit-element": "MeTaNoV/spinkit-element#^1.0.0"
+    "spinkit-element": "MeTaNoV/spinkit-element#^1.0.0",
+    "image-base64": "marcus7777/image-base64",
+    "sc-atrament": "safetychanger/sc-atrament",
+    "sc-autolinker": "safetychanger/sc-autolinker",
+    "sc-photoswipe": "safetychanger/sc-photoswipe",
+    "update-data": "marcus7777/update-data"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -241,7 +246,7 @@
     "geo-hash-data": "master",
     "sortable-list": "master",
     "mediator-data": "master",
-    "moment": "2.12.0",
+    "moment": "~2.10.6",
     "iron-ajax": "master",
     "iron-list": "master",
     "paper-input": "master",
