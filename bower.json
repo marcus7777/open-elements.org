@@ -227,7 +227,8 @@
     "sc-atrament": "safetychanger/sc-atrament",
     "sc-autolinker": "safetychanger/sc-autolinker",
     "sc-photoswipe": "safetychanger/sc-photoswipe",
-    "update-data": "marcus7777/update-data"
+    "update-data": "marcus7777/update-data",
+    "card-display": "marcus7777/card-display"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -322,6 +323,7 @@
     "open-elements": "master",
     "iron-swipeable-pages": "master",
     "paper-fab-transitions": "master",
-    "voice-elements": "master"
+    "voice-elements": "master",
+    "card-deck": "f69c025c29"
   }
 }
