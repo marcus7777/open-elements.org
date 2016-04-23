@@ -228,7 +228,8 @@
     "sc-autolinker": "safetychanger/sc-autolinker",
     "sc-photoswipe": "safetychanger/sc-photoswipe",
     "update-data": "marcus7777/update-data",
-    "card-display": "marcus7777/card-display"
+    "card-display": "marcus7777/card-display",
+    "card-control": "Hi9Here/card-control"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -324,6 +325,10 @@
     "iron-swipeable-pages": "master",
     "paper-fab-transitions": "master",
     "voice-elements": "master",
-    "card-deck": "f69c025c29"
+    "card-deck": "master",
+    "update-data": "374e08aac7",
+    "Sortable": "master",
+    "fab-menu": "af5c32c57d",
+    "card-display": "21fee5544a"
   }
 }
