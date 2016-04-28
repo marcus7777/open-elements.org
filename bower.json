@@ -229,7 +229,8 @@
     "sc-photoswipe": "safetychanger/sc-photoswipe",
     "update-data": "marcus7777/update-data",
     "card-display": "marcus7777/card-display",
-    "card-control": "Hi9Here/card-control"
+    "card-control": "Hi9Here/card-control",
+    "rasterizeHTML.js": "cburgmer/rasterizeHTML.js#^1.2.2"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -326,9 +327,9 @@
     "paper-fab-transitions": "master",
     "voice-elements": "master",
     "card-deck": "master",
-    "update-data": "374e08aac7",
+    "update-data": "master",
     "Sortable": "master",
-    "fab-menu": "af5c32c57d",
-    "card-display": "21fee5544a"
+    "fab-menu": "12d6484e75",
+    "card-display": "master"
   }
 }
