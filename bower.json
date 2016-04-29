@@ -1,6 +1,7 @@
 {
   "name": "open-elements.org",
   "dependencies": {
+    "juicy-html": "Juicy/juicy-html#master",
     "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#master",
     "iron-a11y-keys": "PolymerElements/iron-a11y-keys#master",
     "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#master",
