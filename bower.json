@@ -1,7 +1,7 @@
 {
   "name": "open-elements.org",
   "dependencies": {
-    "juicy-html": "Juicy/juicy-html#master",
+    "juicy-html": "Juicy/juicy-html#^1.1.0",
     "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#master",
     "iron-a11y-keys": "PolymerElements/iron-a11y-keys#master",
     "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#master",
@@ -231,7 +231,10 @@
     "update-data": "marcus7777/update-data",
     "card-display": "marcus7777/card-display",
     "card-control": "Hi9Here/card-control",
-    "rasterizeHTML.js": "cburgmer/rasterizeHTML.js#^1.2.2"
+    "rasterizeHTML.js": "cburgmer/rasterizeHTML.js#^1.2.2",
+    "hide-if": "marcus7777/hide-if",
+    "paper-bottom-sheet": "Collaborne/paper-bottom-sheet#^1.1.0",
+    "paper-search": "Collaborne/paper-search#^1.1.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -331,6 +334,7 @@
     "update-data": "master",
     "Sortable": "master",
     "fab-menu": "master",
-    "card-display": "master"
+    "card-display": "master",
+    "juicy-html": "master"
   }
 }

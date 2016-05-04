@@ -7,9 +7,9 @@ do
   do
     cd gitRepos
     git clone ${T}
-      cd ${D}
-        bower register ${D} ${T} -f
-      cd ..
+#      cd ${D}
+#        bower register ${D} ${T} -f
+#      cd ..
     cd ..
   done 
 done
