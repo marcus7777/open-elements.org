@@ -1,0 +1,13 @@
+{
+  "name": "hide-if",
+  "version": "1.0.0",
+  "description": "hides content if needed",
+  "main": "hide-if.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "dependencies": {
+    "polymer": "*"
+  }
+}

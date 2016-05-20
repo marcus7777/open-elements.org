@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>hide if demo</title>
+    <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="hide-if.html">
+  </head>
+  <body>
+    <pre> value="true" 1</pre>
+    <hide-if value="true">1</hide-if>
+    <pre> value="false" 2</pre>
+    <hide-if value="false">2</hide-if>
+    <pre> value="hello" 3</pre>
+    <hide-if value="hello">3</hide-if>
+    <pre> value="" 4</pre>
+    <hide-if value="">4</hide-if>
+    <pre> value=true 5</pre>
+    <hide-if value=true>5</hide-if>
+    <pre> value=false</pre>
+    <hide-if value=false>6</hide-if>
+    <pre> value=hello 7</pre>
+    <hide-if value=hello>7</hide-if>
+    <pre> value 1</pre>
+    <hide-if value >8</hide-if>
+    <pre>9</pre>
+    <hide-if>9</hide-if>
+  </body>
+</html>

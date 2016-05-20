@@ -1,4 +1,4 @@
-<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="../polymer/polymer.html">
 <!--
   `<hide-if></hide-if>` hides content if needed
   @demo demo.html
@@ -6,14 +6,25 @@
 
 <dom-module id="hide-if">
   <template>
-    <template is="dom-if" if="{{if}}">
+    <template is="dom-if" if="{{notIf}}">
       <content></content>
     </template>
   </template>
 </dom-module>
 <script>
-Polymer({
-  is: "hide-if",
-  properties: {}
-})
+  Polymer({
+    is: "hide-if",
+    properties: {
+      value: {type: String, value: "" },
+      notIf: {
+        computed: "getNotIf(value)" 
+      }
+    },
+    getNotIf: function(not) {
+      if (not === "false" || not === "" || not === "0" ) {
+        not = false
+      }
+      return !not
+    }
+  })
 </script>

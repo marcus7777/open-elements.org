@@ -234,7 +234,9 @@
     "rasterizeHTML.js": "cburgmer/rasterizeHTML.js#^1.2.2",
     "hide-if": "marcus7777/hide-if",
     "paper-bottom-sheet": "Collaborne/paper-bottom-sheet#^1.1.0",
-    "paper-search": "Collaborne/paper-search#^1.1.0"
+    "paper-search": "Collaborne/paper-search#^1.1.0",
+    "app-route": "PolymerElements/app-route#^0.9.0",
+    "drag-me": "marcus7777/drag-me"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -335,6 +337,7 @@
     "Sortable": "master",
     "fab-menu": "master",
     "card-display": "master",
-    "juicy-html": "master"
+    "juicy-html": "master",
+    "card-data": "master"
   }
 }
