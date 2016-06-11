@@ -38,7 +38,7 @@ echo "deleted files with ga.js"
 rsync bower.json dist/bower.json
 for D in `ls -d bower_components/*`
 do
-  cp -n bower_components/iron-doc-viewer/index.html dist/${D}/index.html
+  cp -f bower_components/iron-doc-viewer/index.html dist/${D}/index.html
 done
 echo "copied polymers doc gen index in to all elements with out a index"
 
