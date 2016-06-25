@@ -1,7 +1,7 @@
 {
   "name": "open-elements.org",
   "dependencies": {
-    "app-layout": "PolymerElements/app-layout#master",
+    "app-layout": "PolymerLabs/app-layout#master",
     "app-localize-behavior": "PolymerElements/app-localize-behavior#master",
     "app-pouchdb": "PolymerElements/app-pouchdb#master",
     "app-route": "PolymerElements/app-route#master",
@@ -182,7 +182,6 @@
     "mediator-data": "marcus7777/mediator-data#master",
     "url-value": "HackITtoday/url-value#master",
     "more-routing": "PolymerLabs/more-routing#master",
-    "app-layout": "PolymerLabs/app-layout#master",
     "laterooms-rate": "marcus7777/laterooms-rate#master",
     "ean-rates": "marcus7777/ean-rates",
     "polymer-location-tracking": "MallingDesigns/polymer-location-tracking#master",
@@ -226,7 +225,8 @@
     "paper-bottom-sheet": "Collaborne/paper-bottom-sheet#^1.1.0",
     "paper-search": "Collaborne/paper-search#^1.1.0",
     "polymerfire": "firebase/polymerfire",
-    "drag-me": "marcus7777/drag-me"
+    "drag-me": "marcus7777/drag-me",
+    "url-data": "marcus7777/url-data"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -263,7 +263,7 @@
     "iron-flex-layout": "master",
     "iron-form": "^1.0.10",
     "iron-form-element-behavior": "^1.0.4",
-    "iron-a11y-keys": "1.0.4",
+    "iron-a11y-keys": "master",
     "iron-iconset-svg": "~1.0.6",
     "iron-iconset": "^1.0.0",
     "iron-image": "~1.2.1",
@@ -327,6 +327,8 @@
     "fab-menu": "master",
     "card-display": "master",
     "juicy-html": "master",
-    "card-data": "master"
+    "card-data": "master",
+    "app-storage": "master",
+    "firebase": "^3.0"
   }
 }
