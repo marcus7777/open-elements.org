@@ -329,6 +329,7 @@
     "juicy-html": "master",
     "card-data": "master",
     "app-storage": "master",
-    "firebase": "^3.0"
+    "firebase": "^3.0",
+    "url-data": "master"
   }
 }
