@@ -232,7 +232,8 @@
     "swissmass-abacus": "alodavide/swissmass-abacus#^1.0.0",
     "date-display": "marcus7777/date-display",
     "vaadin-icons": "vaadin/vaadin-icons#^1.0.1",
-    "paypal-link": "marcus7777/paypal-link"
+    "paypal-link": "marcus7777/paypal-link",
+    "jszip": "marcus7777/js-zip"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -336,6 +337,7 @@
     "card-data": "master",
     "app-storage": "master",
     "firebase": "^3.0",
-    "url-data": "master"
+    "url-data": "master",
+    "jszip": "^3.0.0"
   }
 }
