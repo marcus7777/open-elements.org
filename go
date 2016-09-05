@@ -1,5 +1,5 @@
 git pull
 sh pull
-bower update -q
+bower update --allow-root -q
 sh u
-firebase deploy 
+./b

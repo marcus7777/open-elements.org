@@ -47,5 +47,5 @@ rsync -a app/* dist/
 echo "add app"
 
 echo uploading
-rsync -a ./dist/ root@bikefix.co.uk:/var/www/html/open-elements.org/ --exclude .git --delete-excluded
+rsync -a ./dist/ /var/www/html/open-elements.org/ --exclude .git --delete-excluded
 echo inSync

@@ -233,7 +233,8 @@
     "date-display": "marcus7777/date-display",
     "vaadin-icons": "vaadin/vaadin-icons#^1.0.1",
     "paypal-link": "marcus7777/paypal-link",
-    "jszip": "marcus7777/js-zip"
+    "jszip": "marcus7777/js-zip",
+    "bike-cog": "marcus7777/bike-cog"
   },
   "devDependencies": {
     "web-component-tester": "*"
