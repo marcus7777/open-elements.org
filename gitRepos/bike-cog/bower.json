@@ -1,0 +1,13 @@
+{
+  "name": "bike-cog",
+  "version": "1.0.0",
+  "description": "draws a bike cog",
+  "main": "bike-cog.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "dependencies": {
+    "polymer": "*"
+  }
+}
