@@ -234,7 +234,8 @@
     "vaadin-icons": "vaadin/vaadin-icons#^1.0.1",
     "paypal-link": "marcus7777/paypal-link",
     "jszip": "marcus7777/js-zip",
-    "bike-cog": "marcus7777/bike-cog"
+    "bike-cog": "marcus7777/bike-cog",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -339,6 +340,7 @@
     "app-storage": "master",
     "firebase": "^3.0",
     "url-data": "master",
-    "jszip": "^3.0.0"
+    "jszip": "^3.0.0",
+    "prism-element": "^1.1.0"
   }
 }
