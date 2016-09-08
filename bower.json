@@ -224,7 +224,7 @@
     "hide-if": "marcus7777/hide-if",
     "paper-bottom-sheet": "Collaborne/paper-bottom-sheet#^1.1.0",
     "paper-search": "Collaborne/paper-search#^1.1.0",
-    "polymerfire": "firebase/polymerfire",
+    "polymerfire": "firebase/polymerfire#^0.9.7",
     "drag-me": "marcus7777/drag-me",
     "url-data": "marcus7777/url-data",
     "jsonZipper": "u12206050/jsonZipper",
