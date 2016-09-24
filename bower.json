@@ -316,7 +316,7 @@
     "paper-tabs": "^1.0.0",
     "paper-toolbar": "^1.0.0",
     "paper-toggle-button": "master",
-    "paper-tooltip": "1.1.2",
+    "paper-tooltip": "master",
     "paper-ripple": "^1.0.4",
     "vellum-chip": "4e82dce74d",
     "paper-scroll-header-panel": "^1.0.0",
