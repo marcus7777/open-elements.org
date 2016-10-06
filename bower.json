@@ -231,11 +231,12 @@
     "beacons-estimote": "honzalo/beacons-estimote#^0.0.1",
     "swissmass-abacus": "alodavide/swissmass-abacus#^1.0.0",
     "date-display": "marcus7777/date-display",
-    "vaadin-icons": "vaadin/vaadin-icons#^1.0.1",
     "paypal-link": "marcus7777/paypal-link",
     "jszip": "marcus7777/js-zip",
     "bike-cog": "marcus7777/bike-cog",
-    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5"
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5",
+    "lexm-deep-clone": "lexmihaylov/lexm-deep-clone",
+    "source-view": "marcus7777/source-view"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -248,7 +249,7 @@
     "iron-icons": "master",
     "iron-icon": "master",
     "paper-styles": "^1.1.2",
-    "polymer": "master",
+    "polymer": "^1.6.0",
     "show-once": "master",
     "geo-hash-data": "master",
     "sortable-list": "master",
@@ -300,7 +301,7 @@
     "paper-button": "^1.0.6",
     "paper-drawer-panel": "^1.0.0",
     "paper-header-panel": "^1.0.0",
-    "paper-fab": "1.2.0",
+    "paper-fab": "master",
     "paper-item": "master",
     "paper-icon-button": "~1.0.3",
     "paper-material": "~1.0.3",
@@ -341,6 +342,7 @@
     "firebase": "^3.0",
     "url-data": "master",
     "jszip": "^3.0.0",
-    "prism-element": "^1.1.0"
+    "prism-element": "^1.1.0",
+    "image-base64": "bd6a8cc565"
   }
 }
