@@ -236,7 +236,14 @@
     "bike-cog": "marcus7777/bike-cog",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5",
     "lexm-deep-clone": "lexmihaylov/lexm-deep-clone",
-    "source-view": "marcus7777/source-view"
+    "source-view": "marcus7777/source-view",
+    "gun-collection": "Stefdv/gun-collection#master",
+    "s-svg": "StartPolymer/s-svg#^0.1.1",
+    "s-markdown": "StartPolymer/s-markdown#^0.1.2",
+    "lazyloadxt": "#master",
+    "lazy-horizontal-scroll": "marcus7777/lazy-horizontal-scroll",
+    "j-query": "marcus7777/j-query",
+    "gun-db": "Stefdv/gun-db"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -249,7 +256,7 @@
     "iron-icons": "master",
     "iron-icon": "master",
     "paper-styles": "^1.1.2",
-    "polymer": "^1.6.0",
+    "polymer": "~1.7.0",
     "show-once": "master",
     "geo-hash-data": "master",
     "sortable-list": "master",
@@ -343,6 +350,8 @@
     "url-data": "master",
     "jszip": "^3.0.0",
     "prism-element": "^1.1.0",
-    "image-base64": "bd6a8cc565"
+    "image-base64": "bd6a8cc565",
+    "iron-signals": "master",
+    "app-localize-behavior": "master"
   }
 }

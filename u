@@ -1,5 +1,5 @@
 echo "pruned bower"
-bower prune 
+bower prune --allow-root
 
 echo "git local"
 sh g
@@ -21,7 +21,7 @@ echo "  wct.conf.json"
 
 
 echo "coping in to dist bower_components and gitRepos"
-rsync -a bower_components/ dist/bower_components/ && rsync -a gitRepos/ dist/bower_components/ --exclude .git
+rsync -a bower_components/ dist/bower_components/ && rsync -a gitRepos/ dist/bower_components/ --exclude .git --exclude hydrolysis
 echo "copied"
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
@@ -37,8 +37,8 @@ do
 done
 echo "copied polymers doc gen index in to all elements with out a index"
 
-grep rel=\"import\".*\"../[^\"]*  bower_components/*-*/*-*.html -o > dist/imports
-grep rel=\"import\".*\"../[^\"]*  bower_components/*-*/*/*-*.html -o >> dist/imports
+grep rel=\"import\".*\"../[^\"]*  bower_components/*/*-*.html -o > dist/imports
+grep rel=\"import\".*\"../[^\"]*  bower_components/*/*/*-*.html -o >> dist/imports
 
 ls -d bower_components/*/test/ > dist/tests
 echo "make list of tests"
