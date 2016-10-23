@@ -5,6 +5,8 @@ echo "git local"
 sh g
 echo "make list of elements"
 ls bower_components/*/*.html > dist/list-of-elements
+ls bower_components/*/*/*.html >> dist/list-of-elements
+ls bower_components/*/*/*/*.html >> dist/list-of-elements
 
 
 echo "make list of"

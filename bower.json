@@ -1,7 +1,7 @@
 {
   "name": "open-elements.org",
   "dependencies": {
-    "app-layout": "PolymerLabs/app-layout#master",
+    "app-layout": "PolymerElements/app-layout#^0.10.4",
     "app-localize-behavior": "PolymerElements/app-localize-behavior#master",
     "app-pouchdb": "PolymerElements/app-pouchdb#master",
     "app-route": "PolymerElements/app-route#master",
@@ -232,7 +232,7 @@
     "swissmass-abacus": "alodavide/swissmass-abacus#^1.0.0",
     "date-display": "marcus7777/date-display",
     "paypal-link": "marcus7777/paypal-link",
-    "jszip": "marcus7777/js-zip",
+    "js-zip": "marcus7777/js-zip",
     "bike-cog": "marcus7777/bike-cog",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5",
     "lexm-deep-clone": "lexmihaylov/lexm-deep-clone",
@@ -243,7 +243,13 @@
     "lazyloadxt": "#master",
     "lazy-horizontal-scroll": "marcus7777/lazy-horizontal-scroll",
     "j-query": "marcus7777/j-query",
-    "gun-db": "Stefdv/gun-db"
+    "gun-db": "Stefdv/gun-db",
+    "lazy-imports": "Polymer/lazy-imports#^0.0.1",
+    "webrtc-video": "convoo/webrtc-video#^0.0.3",
+    "webrtc-channel": "convoo/webrtc-channel",
+    "sc-swiper": "*",
+    "zip-download": "marcus7777/zip-download",
+    "quantity-button": "marcus7777/quantity-button"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -348,10 +354,11 @@
     "app-storage": "master",
     "firebase": "^3.0",
     "url-data": "master",
-    "jszip": "^3.0.0",
     "prism-element": "^1.1.0",
     "image-base64": "bd6a8cc565",
     "iron-signals": "master",
-    "app-localize-behavior": "master"
+    "app-localize-behavior": "master",
+    "app-layout": "master",
+    "js-zip": "04bcc76738"
   }
 }
