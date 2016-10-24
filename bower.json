@@ -250,7 +250,8 @@
     "zip-download": "marcus7777/zip-download",
     "quantity-button": "marcus7777/quantity-button",
     "qrious": "neocotic/qrious#^2.1.0",
-    "qr-ious": "marcus7777/qr-ious"
+    "qr-ious": "marcus7777/qr-ious",
+    "qr-code": "marcus7777/qr-code"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -360,6 +361,7 @@
     "iron-signals": "master",
     "app-localize-behavior": "master",
     "app-layout": "master",
-    "js-zip": "04bcc76738"
+    "js-zip": "04bcc76738",
+    "qr-ious": "a10d5cc016"
   }
 }
