@@ -132,7 +132,6 @@
     "flip-clock": "Granze/flip-clock#master",
     "star-rating": "cmartinezv/star-rating#master",
     "sc-timeago": "safetychanger/sc-timeago#master",
-    "qr-code": "marcus7777/qr-code#master",
     "cosmoz-page-router": "Neovici/cosmoz-page-router#master",
     "app-globals": "marcus7777/app-globals#master",
     "x-tweet": "ajaythomas123/x-tweet#master",
@@ -249,7 +248,9 @@
     "webrtc-channel": "convoo/webrtc-channel",
     "sc-swiper": "*",
     "zip-download": "marcus7777/zip-download",
-    "quantity-button": "marcus7777/quantity-button"
+    "quantity-button": "marcus7777/quantity-button",
+    "qrious": "neocotic/qrious#^2.1.0",
+    "qr-ious": "marcus7777/qr-ious"
   },
   "devDependencies": {
     "web-component-tester": "*"
