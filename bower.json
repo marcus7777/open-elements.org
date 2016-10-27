@@ -251,7 +251,8 @@
     "quantity-button": "marcus7777/quantity-button",
     "qrious": "neocotic/qrious#^2.1.0",
     "qr-ious": "marcus7777/qr-ious",
-    "qr-code": "marcus7777/qr-code"
+    "qr-code": "marcus7777/qr-code",
+    "dark-side": "marcus7777/dark-side"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -289,7 +290,7 @@
     "iron-form": "^1.0.10",
     "iron-form-element-behavior": "^1.0.4",
     "iron-a11y-keys": "master",
-    "iron-iconset-svg": "~1.0.6",
+    "iron-iconset-svg": "master",
     "iron-iconset": "^1.0.0",
     "iron-image": "~1.2.1",
     "iron-jsonp-library": "^1.0.0",
@@ -362,6 +363,7 @@
     "app-localize-behavior": "master",
     "app-layout": "master",
     "js-zip": "04bcc76738",
-    "qr-ious": "a10d5cc016"
+    "qr-ious": "a10d5cc016",
+    "mocha": "^3.1.2"
   }
 }
