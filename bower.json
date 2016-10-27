@@ -252,7 +252,8 @@
     "qrious": "neocotic/qrious#^2.1.0",
     "qr-ious": "marcus7777/qr-ious",
     "qr-code": "marcus7777/qr-code",
-    "dark-side": "marcus7777/dark-side"
+    "dark-side": "marcus7777/dark-side",
+    "url-encode": "marcus7777/url-encode"
   },
   "devDependencies": {
     "web-component-tester": "*"
