@@ -253,7 +253,10 @@
     "qr-ious": "marcus7777/qr-ious",
     "qr-code": "marcus7777/qr-code",
     "dark-side": "marcus7777/dark-side",
-    "url-encode": "marcus7777/url-encode"
+    "url-encode": "marcus7777/url-encode",
+    "polymer-slideshow": "Iverum/polymer-slideshow#^3.1.0",
+    "qcode-decoder": "^0.1.0",
+    "qrcode-decoder": "marcus7777/qrcode-decoder"
   },
   "devDependencies": {
     "web-component-tester": "*"
