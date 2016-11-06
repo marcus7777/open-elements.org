@@ -257,7 +257,11 @@
     "polymer-slideshow": "Iverum/polymer-slideshow#^3.1.0",
     "qcode-decoder": "^0.1.0",
     "qrcode-decoder": "marcus7777/qrcode-decoder",
-    "card-info-server-test": "marcus7777/card-info-server-test"
+    "card-info-server-test": "marcus7777/card-info-server-test",
+    "erc-js": "marcus7777/erc-js",
+    "erc-js-import": "marcus7777/erc-js-import",
+    "data-confirmation": "marcus7777/data-confirmation",
+    "card-info-link-input": "marcus7777/card-info-link-input"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -363,7 +367,7 @@
     "firebase": "^3.0",
     "url-data": "master",
     "prism-element": "^1.1.0",
-    "image-base64": "bd6a8cc565",
+    "image-base64": "193681247c",
     "iron-signals": "master",
     "app-localize-behavior": "master",
     "app-layout": "master",
@@ -371,6 +375,7 @@
     "qr-ious": "a10d5cc016",
     "mocha": "^3.1.2",
     "dark-side": "10cee98149",
-    "url-encode": "988d8879d3"
+    "url-encode": "988d8879d3",
+    "erc-js-import": "214e31af3a"
   }
 }
