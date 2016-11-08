@@ -261,7 +261,9 @@
     "erc-js": "marcus7777/erc-js",
     "erc-js-import": "marcus7777/erc-js-import",
     "data-confirmation": "marcus7777/data-confirmation",
-    "card-info-link-input": "marcus7777/card-info-link-input"
+    "card-info-link-input": "marcus7777/card-info-link-input",
+    "mdl-template-dash": "marcus7777/mdl-template-dash",
+    "wincinderith-elements": "wincinderith/polymer-elements#^1.0.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -335,7 +337,7 @@
     "paper-progress": "~1.0.2",
     "paper-radio-button": "^1.0.0",
     "paper-radio-group": "^1.0.0",
-    "iron-image-info": "^1.0.0",
+    "iron-image-info": "master",
     "paper-spinner": "^1.0.0",
     "paper-slider": "^1.0.0",
     "paper-toast": "^1.0.0",
@@ -376,6 +378,8 @@
     "mocha": "^3.1.2",
     "dark-side": "10cee98149",
     "url-encode": "988d8879d3",
-    "erc-js-import": "214e31af3a"
+    "erc-js-import": "214e31af3a",
+    "paper-divider": "master",
+    "paper-carousel": "master"
   }
 }
