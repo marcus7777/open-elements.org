@@ -263,7 +263,8 @@
     "data-confirmation": "marcus7777/data-confirmation",
     "card-info-link-input": "marcus7777/card-info-link-input",
     "mdl-template-dash": "marcus7777/mdl-template-dash",
-    "wincinderith-elements": "wincinderith/polymer-elements#^1.0.0"
+    "wincinderith-elements": "wincinderith/polymer-elements#^1.0.0",
+    "firebase-ui-auth": "marcus7777/firebase-ui-auth"
   },
   "devDependencies": {
     "web-component-tester": "*"
