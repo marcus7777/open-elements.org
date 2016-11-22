@@ -223,7 +223,7 @@
     "hide-if": "marcus7777/hide-if",
     "paper-bottom-sheet": "Collaborne/paper-bottom-sheet#^1.1.0",
     "paper-search": "Collaborne/paper-search#^1.1.0",
-    "polymerfire": "firebase/polymerfire#^0.9.7",
+    "polymerfire": "firebase/polymerfire#^0.10.3",
     "drag-me": "marcus7777/drag-me",
     "url-data": "marcus7777/url-data",
     "jsonZipper": "u12206050/jsonZipper",
@@ -264,7 +264,9 @@
     "card-info-link-input": "marcus7777/card-info-link-input",
     "mdl-template-dash": "marcus7777/mdl-template-dash",
     "wincinderith-elements": "wincinderith/polymer-elements#^1.0.0",
-    "firebase-ui-auth": "marcus7777/firebase-ui-auth"
+    "firebase-ui-auth": "marcus7777/firebase-ui-auth",
+    "text-avatar": "marcus7777/text-avatar",
+    "firebase-util": "marcus7777/firebase-util"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -367,7 +369,7 @@
     "juicy-html": "master",
     "card-data": "master",
     "app-storage": "master",
-    "firebase": "^3.0",
+    "firebase": ">= 3.5.1 < 4.0",
     "url-data": "master",
     "prism-element": "^1.1.0",
     "image-base64": "193681247c",
@@ -381,6 +383,7 @@
     "url-encode": "988d8879d3",
     "erc-js-import": "214e31af3a",
     "paper-divider": "master",
-    "paper-carousel": "master"
+    "paper-carousel": "master",
+    "polymerfire": "^0.10.3"
   }
 }
