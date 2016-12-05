@@ -271,7 +271,8 @@
     "firebase-pager": "marcus7777/firebase-pager",
     "firebase-import": "marcus7777/firebase-import",
     "input-image": "marcus7777/input-image",
-    "mail-chimp": "marcus7777/mail-chimp"
+    "mail-chimp": "marcus7777/mail-chimp",
+    "input-defaults": "marcus7777/input-defaults"
   },
   "devDependencies": {
     "web-component-tester": "*"
