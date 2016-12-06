@@ -1,23 +1,17 @@
 mkdir gitRepos
 
-
-for D in `ls bower_components -r`
+for T in `bower cache list --allow-root | sort | grep -o -P "(?<=\=).*(?=#)" | uniq -u`
 do
-  for T in `bower cache list | sort | grep -o -P "(?<=\=).*(?=#)" | uniq -u`
-  do
-    cd gitRepos
-    git clone ${T} && (
-      cd ${D}
-        bower register ${D} ${T} -f --allow-root
-      cd .. ) && git add . && git commit -am "auto add bower"
-    cd ..
-  done 
-done
+  cd gitRepos
+    git clone ${T}
+  cd ..
+done 
 
-
-for D in `ls bower_components/`
+cd gitRepos
+for D in `ls`
 do
-  cd gitRepos/${D}/ && \
-  git rev-list --all --header > ../../dist/bower_components/${D}/gitlog && \
-  cd ../..
+  cd ${D} && \
+    mkdir ../../dist/bower_components/${D}/ -p && \
+    git rev-list --all --header > ../../dist/bower_components/${D}/gitlog && \
+  cd ..
 done 

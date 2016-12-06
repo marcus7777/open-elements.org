@@ -4,24 +4,24 @@ bower prune --allow-root
 echo "git local"
 sh g
 echo "make list of elements"
-ls bower_components/*/*.html | grep -v \/test\/ > dist/list-of-elements
-ls bower_components/*/*/*.html | grep -v \/test\/ >> dist/list-of-elements
-ls bower_components/*/*/*/*.html | grep -v \/test\/ >> dist/list-of-elements
-sort dist/list-of-elements | grep index -v | grep behavior -v | uniq -u > dist/list-of-elements
+ls bower_components/*/*.html | grep -v \/test\/ > dist/_list-of-elements
+ls bower_components/*/*/*.html | grep -v \/test\/ >> dist/_list-of-elements
+ls bower_components/*/*/*/*.html | grep -v \/test\/ >> dist/_list-of-elements
+sort dist/_list-of-elements | grep index -v | grep behavior -v | uniq -u > dist/list-of-elements
 
 
 echo "make list of"
-grep \"_source\":\  bower_components/*/.bower.json | grep git:\/\/[^\"]*-[^\"]*[^\"]* -o > dist/gitList
+grep \"_source\":\  bower_components/*/.bower.json | grep git:\/\/[^\"]*-[^\"]*[^\"]* -o > dist/_gitList
 echo "  _source"
-grep \"_release\":\[^,]*  bower_components/*/.bower.json -o >> dist/gitList
+grep \"_release\":\[^,]*  bower_components/*/.bower.json -o >> dist/_gitList
 echo "  _release"
-ls bower_components/*/bower.json >> dist/gitList
+ls bower_components/*/bower.json >> dist/_gitList
 echo "  bower.json"
-ls bower_components/*/.travis.yml >> dist/gitList
+ls bower_components/*/.travis.yml >> dist/_gitList
 echo "  .travis.yml"
-ls bower_components/*/wct.conf.json >> dist/gitList
+ls bower_components/*/wct.conf.json >> dist/_gitList
 echo "  wct.conf.json"
-sort dist/gitList | uniq -u > dist/gitList
+sort dist/_gitList | uniq -u > dist/gitList
 
 
 echo "coping in to dist bower_components and gitRepos"
