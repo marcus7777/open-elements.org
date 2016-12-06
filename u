@@ -7,6 +7,7 @@ echo "make list of elements"
 ls bower_components/*/*.html | grep -v \/test\/ > dist/list-of-elements
 ls bower_components/*/*/*.html | grep -v \/test\/ >> dist/list-of-elements
 ls bower_components/*/*/*/*.html | grep -v \/test\/ >> dist/list-of-elements
+sort dist/list-of-elements | grep index -v | grep behavior -v | uniq -u > dist/list-of-elements
 
 
 echo "make list of"
@@ -20,6 +21,7 @@ ls bower_components/*/.travis.yml >> dist/gitList
 echo "  .travis.yml"
 ls bower_components/*/wct.conf.json >> dist/gitList
 echo "  wct.conf.json"
+sort dist/gitList | uniq -u > dist/gitList
 
 
 echo "coping in to dist bower_components and gitRepos"
