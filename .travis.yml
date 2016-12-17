@@ -9,7 +9,6 @@ addons:
     packages:
       - google-chrome-stable
 node_js:
-  - '6'
   - '7'
 before_script:
   - npm install -g bower firebase-tools
