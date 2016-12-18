@@ -269,7 +269,9 @@
     "firebase-import": "marcus7777/firebase-import",
     "input-image": "marcus7777/input-image",
     "mail-chimp": "marcus7777/mail-chimp",
-    "input-defaults": "marcus7777/input-defaults"
+    "input-defaults": "marcus7777/input-defaults",
+    "contextual-menu": "marcus7777/contextual-menu",
+    "noification-count": "marcus7777/noification-count"
   },
   "devDependencies": {
     "web-component-tester": "*"
