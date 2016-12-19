@@ -1,6 +1,7 @@
 {
   "name": "open-elements.org",
   "dependencies": {
+    "open-elements": "marcus7777/open-elements",
     "app-layout": "PolymerElements/app-layout#^0.10.4",
     "app-localize-behavior": "PolymerElements/app-localize-behavior#master",
     "app-pouchdb": "PolymerElements/app-pouchdb#master",
