@@ -1,9 +1,9 @@
 {
   "name": "open-elements.org",
   "dependencies": {
-    "iron-accordions":"alijaya/iron-accordions",
+    "iron-accordions": "alijaya/iron-accordions#^1.1.0",
     "paypal-link": "marcus7777/paypal-link",
-    "open-elements": "marcus7777/open-elements",
+    "open-elements": "marcus7777/open-elements#master",
     "app-layout": "PolymerElements/app-layout#^0.10.4",
     "app-localize-behavior": "PolymerElements/app-localize-behavior#master",
     "app-pouchdb": "PolymerElements/app-pouchdb#master",
@@ -189,7 +189,6 @@
     "polymer-location-tracking": "MallingDesigns/polymer-location-tracking#master",
     "pie-chart": "Saganic/pie-chart",
     "rate-lister": "marcus7777/rate-lister#master",
-    "open-elements": "marcus7777/open-elements#master",
     "iron-swipeable-pages": "MeTaNoV/iron-swipeable-pages#^1.0.7",
     "emoji-text": "PolymerLabs/emoji-text#master",
     "clipboard-input": "jshcrowthe/clipboard-input#^1.0.0",
@@ -200,7 +199,6 @@
     "dom-repeat-n": "MeTaNoV/dom-repeat-n#^1.0.2",
     "iron-data-table": "Saulis/iron-data-table#^1.0.0-alpha3",
     "l2t-context-menu": "Link2Twenty/l2t-context-menu",
-    "iron-accordions": "alijaya/iron-accordions#^1.0.0",
     "paper-cut": "alijaya/paper-cut#^0.0.1",
     "get-field": "marcus7777/get-field",
     "add-data": "marcus7777/add-data",
@@ -233,7 +231,6 @@
     "beacons-estimote": "honzalo/beacons-estimote#^0.0.1",
     "swissmass-abacus": "alodavide/swissmass-abacus#^1.0.0",
     "date-display": "marcus7777/date-display",
-    "paypal-link": "marcus7777/paypal-link",
     "js-zip": "marcus7777/js-zip",
     "bike-cog": "marcus7777/bike-cog",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5",
@@ -392,6 +389,7 @@
     "erc-js-import": "214e31af3a",
     "paper-divider": "master",
     "paper-carousel": "master",
-    "polymerfire": "^0.10.3"
+    "polymerfire": "^0.10.3",
+    "iron-accordions": "~1.0.0"
   }
 }
