@@ -271,7 +271,8 @@
     "mail-chimp": "marcus7777/mail-chimp",
     "input-defaults": "marcus7777/input-defaults",
     "contextual-menu": "marcus7777/contextual-menu",
-    "noification-count": "marcus7777/noification-count"
+    "noification-count": "marcus7777/noification-count",
+    "paper-stepper": "polymer-paper-stepper#^1.1.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -292,7 +293,7 @@
     "moment": "~2.10.6",
     "iron-ajax": "master",
     "iron-list": "master",
-    "paper-input": "master",
+    "paper-input": "1d4798916a",
     "paper-filter": "master",
     "google-apis": "master",
     "google-signin": "master",
@@ -304,7 +305,7 @@
     "iron-component-page": "^1.0.0",
     "iron-doc-viewer": "^1.0.1",
     "iron-fit-behavior": "^1.0.0",
-    "iron-dropdown": "^1.0.0",
+    "iron-dropdown": "master",
     "iron-flex-layout": "master",
     "iron-form": "^1.0.10",
     "iron-form-element-behavior": "^1.0.4",
@@ -324,7 +325,7 @@
     "iron-meta": "^1.0.0",
     "iron-resizable-behavior": "^1.0.2",
     "iron-selector": "^1.0.0",
-    "iron-validatable-behavior": "^1.0.5",
+    "iron-validatable-behavior": "master",
     "iron-validator-behavior": "^1.0.0",
     "paper-badge": "^1.0.0",
     "paper-behaviors": "^1.0.0",
@@ -390,6 +391,8 @@
     "paper-divider": "master",
     "paper-carousel": "master",
     "polymerfire": "^0.10.3",
-    "iron-accordions": "~1.0.0"
+    "iron-accordions": "~1.0.0",
+    "neon-animation": "~1.0.9",
+    "web-animations-js": "2.1.3"
   }
 }
