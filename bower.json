@@ -393,6 +393,7 @@
     "polymerfire": "^0.10.3",
     "iron-accordions": "~1.0.0",
     "neon-animation": "~1.0.9",
-    "web-animations-js": "2.1.3"
+    "web-animations-js": "2.1.3",
+    "paper-stepper": "master"
   }
 }
