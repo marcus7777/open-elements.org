@@ -7,7 +7,7 @@ echo "make list of elements"
 ls bower_components/*/*.html | grep -v \/test\/ > dist/_list-of-elements
 ls bower_components/*/*/*.html | grep -v \/test\/ >> dist/_list-of-elements
 ls bower_components/*/*/*/*.html | grep -v \/test\/ >> dist/_list-of-elements
-sort dist/_list-of-elements | grep -v \/bower_components\/ | grep -v \/examples\/ | grep -v \/classes\/ | grep -v \/components\/ |  grep -v \/tests\/ | grep \/demo\.html -v | grep -v \/demo\/ | grep -v \/demos\/ | grep index -v | grep behavior -v | uniq -u > dist/list-of-elements
+sort dist/_list-of-elements | grep -v \/bower_components\/ | grep -v \/examples\/ | grep -v \/classes\/ | grep -v \/components\/ |  grep -v \/tests\/ | grep \/demo\.html -v | grep -v \/demo\/ | grep -v elements\/ | grep -v \/demos\/ | grep index -v | grep behavior -v | uniq -u > dist/list-of-elements
 
 
 echo "make list of"
