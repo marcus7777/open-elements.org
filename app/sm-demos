@@ -1,3 +1,4 @@
 {
- "google-map":"<style>\n  google-map {\n    height: 200px;\n  }\n</style>\n<google-map latitude=\"37.77493\" longitude=\"-122.41942\" ></google-map>"
+ "google-map":"<style>\n  google-map {\n    height: 200px;\n  }\n</style>\n<google-map latitude=\"37.77493\" longitude=\"-122.41942\" ></google-map>",
+ "paper-input-autocomplete":"<style> paper-input-autocomplete \r\n{background:#ff6;}<\/style>\n<paper-input-autocomplete id=\"fruits\" label=\"Fruits\" source=\'[\"Apple\",\"Orange\",\"Bananas\"]\'><\/paper-input-autocomplete>"
 }
