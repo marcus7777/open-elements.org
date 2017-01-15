@@ -1,5 +1,0 @@
-{
-  "google-map":"<style>\n  google-map {\n    height: 200px;\n  }\n</style>\n<google-map latitude=\"37.77493\" longitude=\"-122.41942\" ></google-map>",
-  "paper-input-autocomplete":"<style> paper-input-autocomplete \r\n{background:#ff6;}<\/style>\n<paper-input-autocomplete id=\"fruits\" label=\"Fruits\" source=\'[\"Apple\",\"Orange\",\"Bananas\"]\'><\/paper-input-autocomplete>",
-  "toggle-icon":"<style> toggle-icon {background:#ff6}</style>\n<toggle-icon icon=\"thumb-up\" animation=\"flip-vertical\"></toggle-icon>\n<toggle-icon icon=\"arrow-forward\" animation=\"rotate\" rotation=\"90\"></toggle-icon>"
-}
