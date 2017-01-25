@@ -272,7 +272,8 @@
     "input-defaults": "marcus7777/input-defaults",
     "contextual-menu": "marcus7777/contextual-menu",
     "noification-count": "marcus7777/noification-count",
-    "paper-stepper": "Collaborne/paper-stepper#^1.1.0"
+    "paper-stepper": "Collaborne/paper-stepper#^1.1.0",
+    "xml-json": "marcus7777/xml-json"
   },
   "devDependencies": {
     "web-component-tester": "*"
