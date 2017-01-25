@@ -11,7 +11,7 @@ sort dist/_list-of-elements | grep -v \/bower_components\/ | grep -v \/examples\
 
 
 echo "make list of"
-grep \"_source\":\  dist/bower_components/*/giturl | grep git:\/\/[^\"]*-[^\"]*[^\"]* -o > dist/_gitList
+cat gitRepos/*/.git/config | grep url\ =\  | awk '{print $3}' > dist/_gitList
 echo "  _source"
 grep \"_release\":\[^,]*  bower_components/*/.bower.json -o >> dist/_gitList
 echo "  _release"
