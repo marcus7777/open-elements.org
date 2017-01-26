@@ -273,7 +273,8 @@
     "contextual-menu": "marcus7777/contextual-menu",
     "noification-count": "marcus7777/noification-count",
     "paper-stepper": "Collaborne/paper-stepper#^1.1.0",
-    "xml-json": "marcus7777/xml-json"
+    "xml-json": "marcus7777/xml-json",
+    "wave-player": "Link2Twenty/wave-player"
   },
   "devDependencies": {
     "web-component-tester": "*"
