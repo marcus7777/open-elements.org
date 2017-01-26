@@ -181,7 +181,7 @@
     "poly-theme-builder": "robrez/poly-theme-builder",
     "html-edit": "marcus7777/html-edit#master",
     "md-display": "marcus7777/md-display#master",
-    "mediator-data": "marcus7777/mediator-data#master",
+    "mediator-data": "marcus7777/mediator-data#^1.0.0",
     "url-value": "HackITtoday/url-value#master",
     "more-routing": "PolymerLabs/more-routing#master",
     "laterooms-rate": "marcus7777/laterooms-rate#master",
