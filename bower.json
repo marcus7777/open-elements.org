@@ -274,7 +274,10 @@
     "noification-count": "marcus7777/noification-count",
     "paper-stepper": "Collaborne/paper-stepper#^1.1.0",
     "xml-json": "marcus7777/xml-json",
-    "wave-player": "Link2Twenty/wave-player"
+    "wave-player": "Link2Twenty/wave-player",
+    "select2-wrapper": "kolarski/select2-wrapper#^1.0.4",
+    "three.js": "mrdoob/three.js",
+    "three-js": "marcus7777/three-js"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -291,7 +294,7 @@
     "show-once": "master",
     "geo-hash-data": "master",
     "sortable-list": "master",
-    "mediator-data": "master",
+    "mediator-data": "1.0.0",
     "moment": "~2.10.6",
     "iron-ajax": "master",
     "iron-list": "master",
@@ -304,7 +307,7 @@
     "iron-a11y-announcer": "^1.0.4",
     "iron-autogrow-textarea": "^1.0.0",
     "iron-collapse": "^1.0.0",
-    "iron-component-page": "^1.0.0",
+    "iron-component-page": "master",
     "iron-doc-viewer": "^1.0.1",
     "iron-fit-behavior": "^1.0.0",
     "iron-dropdown": "master",
