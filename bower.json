@@ -279,7 +279,8 @@
     "three.js": "mrdoob/three.js",
     "three-js": "marcus7777/three-js",
     "deck-of-cards": "pakastin/deck-of-cards#^0.1.4",
-    "sync-time": "marcus7777/sync-time"
+    "sync-time": "marcus7777/sync-time",
+    "link-display": "Hi9Here/link-display"
   },
   "devDependencies": {
     "web-component-tester": "*"
