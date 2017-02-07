@@ -278,7 +278,8 @@
     "select2-wrapper": "kolarski/select2-wrapper#^1.0.4",
     "three.js": "mrdoob/three.js",
     "three-js": "marcus7777/three-js",
-    "deck-of-cards": "pakastin/deck-of-cards#^0.1.4"
+    "deck-of-cards": "pakastin/deck-of-cards#^0.1.4",
+    "sync-time": "marcus7777/sync-time"
   },
   "devDependencies": {
     "web-component-tester": "*"
