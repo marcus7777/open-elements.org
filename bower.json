@@ -282,7 +282,8 @@
     "sync-time": "marcus7777/sync-time",
     "link-display": "Hi9Here/link-display",
     "play-slam": "marcus7777/play-slam",
-    "inbox-search": "marcus7777/inbox-search"
+    "inbox-search": "marcus7777/inbox-search",
+    "polymer-quill": "chuckh/polymer-quill#^1.2.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -368,7 +369,7 @@
     "vellum-chip": "4e82dce74d",
     "paper-scroll-header-panel": "^1.0.0",
     "paper-chip": "~1.0.0",
-    "marked-element": "1.1.3",
+    "marked-element": "master",
     "paper-card": "^1.0.0",
     "pair-production": "1971d15ad6",
     "app-globals": "master",
@@ -404,6 +405,7 @@
     "iron-accordions": "~1.0.0",
     "neon-animation": "~1.0.9",
     "web-animations-js": "2.1.3",
-    "paper-stepper": "master"
+    "paper-stepper": "master",
+    "webcomponentsjs": "v1.0.0-rc.4"
   }
 }
