@@ -283,7 +283,8 @@
     "link-display": "Hi9Here/link-display",
     "play-slam": "marcus7777/play-slam",
     "inbox-search": "marcus7777/inbox-search",
-    "polymer-quill": "chuckh/polymer-quill#^1.2.0"
+    "polymer-quill": "chuckh/polymer-quill#^1.2.0",
+    "paper-tabbed-pages": "marcus7777/paper-tabbed-pages"
   },
   "devDependencies": {
     "web-component-tester": "*"
