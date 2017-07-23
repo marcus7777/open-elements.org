@@ -283,7 +283,10 @@
     "inbox-search": "marcus7777/inbox-search",
     "polymer-quill": "chuckh/polymer-quill#^1.2.0",
     "paper-tabbed-pages": "marcus7777/paper-tabbed-pages",
-    "content-card": "marcus7777/content-card"
+    "content-card": "marcus7777/content-card",
+    "magnet-link": "marcus7777/magnet-link",
+    "exif-js": "^2.2.0",
+    "location-picker": "marcus7777/location-picker"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -291,12 +294,12 @@
   "resolutions": {
     "edit-in-jsbin": "master",
     "lunr-js": "master",
-    "iron-behaviors": "master",
+    "iron-behaviors": "^1.0.0",
     "iron-test-helpers": "master",
     "iron-icons": "master",
     "iron-icon": "master",
     "paper-styles": "^1.1.2",
-    "polymer": "~1.7.0",
+    "polymer": "^1.9.1",
     "show-once": "master",
     "geo-hash-data": "master",
     "sortable-list": "master",
@@ -304,9 +307,9 @@
     "moment": "~2.10.6",
     "iron-ajax": "master",
     "iron-list": "master",
-    "paper-input": "master",
+    "paper-input": "^1.1.11",
     "paper-filter": "master",
-    "google-apis": "master",
+    "google-apis": "^1.1.7",
     "google-signin": "master",
     "google-chart": "master",
     "lodash": "^4.5.1",
@@ -335,7 +338,7 @@
     "iron-a11y-keys-behavior": "^1.0.7",
     "iron-meta": "^1.0.0",
     "iron-resizable-behavior": "^1.0.2",
-    "iron-selector": "^1.0.0",
+    "iron-selector": "master",
     "iron-validatable-behavior": "master",
     "iron-validator-behavior": "^1.0.0",
     "paper-badge": "^1.0.0",
@@ -412,6 +415,11 @@
     "hydrolysis": "hydrolysis-1.x",
     "paper-listbox": "^1.1.1",
     "iron-scroll-target-behavior": "^1.0.0",
-    "iron-checked-element-behavior": "^1.0.0"
+    "iron-checked-element-behavior": "^1.0.0",
+    "paper-swatch-picker": "^1.0.0",
+    "iron-location": "1 - 2",
+    "test-fixture": "^2.0.1",
+    "google-map": "^1.0.0",
+    "location-picker": "d56c6be23d"
   }
 }
