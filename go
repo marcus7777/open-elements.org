@@ -1,4 +1,4 @@
 git pull
 sh pull
 sh u
-bower update
+bower up --allow

@@ -25,7 +25,8 @@ sort dist/_gitList | uniq -u > dist/gitList
 
 
 echo "coping in to dist bower_components and gitRepos"
-rsync -a bower_components/ dist/bower_components/ && rsync -a gitRepos/ dist/bower_components/ --exclude .git --exclude hydrolysis
+rsync -a gitRepos/ dist/bower_components/ --exclude .git && 
+rsync -a bower_components/ dist/bower_components/ 
 echo "copied"
 
 for T in `grep ga.js dist/*/*/* | grep ^[^:]* -o`
