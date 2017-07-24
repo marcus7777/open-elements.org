@@ -6,6 +6,6 @@ clone and install:
 ```
  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
  apt-get install nodejs curl git -y
- npm install -g polymer-cli bower firebase-tools
+ npm install -g bower
  sh go
 ```
