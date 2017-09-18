@@ -1,0 +1,19 @@
+{
+  "name": "open-elements.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "  ",
+  "scripts": {
+    "test": "  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcus7777/open-elements.org.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcus7777/open-elements.org/issues"
+  },
+  "homepage": "https://github.com/marcus7777/open-elements.org#readme"
+}

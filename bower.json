@@ -210,7 +210,7 @@
     "beacons-estimote": "honzalo/beacons-estimote#^0.0.1",
     "swissmass-abacus": "alodavide/swissmass-abacus#~1.0.0",
     "date-display": "marcus7777/date-display#master",
-    "js-zip": "marcus7777/js-zip",
+    "js-zip": "marcus7777/js-zip#master",
     "bike-cog": "marcus7777/bike-cog",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5",
     "lexm-deep-clone": "lexmihaylov/lexm-deep-clone",
@@ -272,7 +272,9 @@
     "paper-ripple": "PolymerElements/paper-ripple#^2.0.1",
     "location-picker": "marcus7777/location-picker",
     "deko-page": "Hi9Here/deko-page",
-    "card-river": "Hi9Here/card-river"
+    "card-river": "Hi9Here/card-river",
+    "paper-multi-select": "rayabhagis/paper-multi-select#^0.1.0",
+    "paper-autocomplete-chips": "Neovici/paper-autocomplete-chips#^1.0.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -289,7 +291,7 @@
     "iron-flex-layout": "^1.3.7",
     "iron-list": "^1.2.0",
     "iron-component-page": "^1.1.8",
-    "iron-icon": "1.0.13",
+    "iron-icon": "^1.0.0",
     "iron-icons": "^1.2.0",
     "iron-doc-viewer": "^1.0.1",
     "iron-input": "^1.0.0",
@@ -297,11 +299,11 @@
     "iron-test-helpers": "^1.4.1",
     "paper-badge": "1.1.4",
     "paper-button": "1.0.15",
-    "paper-checkbox": "~1.0.13",
+    "paper-checkbox": "^1.4.2",
     "paper-dialog": "^1.1.0",
     "paper-icon-button": "^1.0.7",
-    "paper-input": "^1.1.11",
-    "paper-item": "^1.0.1",
+    "paper-input": "^1.1.5",
+    "paper-item": "^2.0.0",
     "paper-progress": "~1.0.2",
     "paper-ripple": "^1.0.0",
     "paper-spinner": "^1.1.1",
@@ -318,9 +320,8 @@
     "card-data": "master",
     "paper-stepper": "master",
     "firebase": "^4.1.2",
-    "moment": "~2.13.0",
+    "moment": "~2.8.3",
     "iron-location": "1.0.0",
-    "js-zip": "04bcc76738",
     "qr-ious": "a10d5cc016",
     "url-encode": "988d8879d3",
     "dark-side": "10cee98149",
@@ -335,6 +336,10 @@
     "paper-dropdown-menu": "^1.5.0",
     "paper-button-group": "^1.0.0",
     "paper-menu": "^1.2.2",
-    "app-layout": "~1.0.1"
+    "app-layout": "~1.0.1",
+    "js-zip": "master",
+    "iron-iconset-svg": "^1.1.0",
+    "iron-iconset": "^1.0.0",
+    "paper-material": "^1.0.0"
   }
 }
