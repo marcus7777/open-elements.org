@@ -153,7 +153,7 @@
     "platinum-push-messaging": "PolymerElements/platinum-push-messaging",
     "platinum-sw": "PolymerElements/platinum-sw#^1.2.0",
     "neon-animation": "PolymerElements/neon-animation#~1.0.0",
-    "polymer": "~1.9.3",
+    "polymer": "1.10.0",
     "hydrolysis": "PolymerLabs/hydrolysis#^1.11.0",
     "edit-in-jsbin": "marcus7777/edit-in-jsbin",
     "pair-production": "marcus7777/pair-production",
@@ -249,7 +249,7 @@
     "input-defaults": "marcus7777/input-defaults",
     "contextual-menu": "marcus7777/contextual-menu",
     "noification-count": "marcus7777/noification-count",
-    "paper-stepper": "Collaborne/paper-stepper#^1.1.0",
+    "paper-stepper": "Zecat/paper-stepper#v2.0-beta.5",
     "xml-json": "marcus7777/xml-json",
     "wave-player": "Link2Twenty/wave-player",
     "select2-wrapper": "kolarski/select2-wrapper#~1.0.4",
@@ -274,7 +274,8 @@
     "deko-page": "Hi9Here/deko-page",
     "card-river": "Hi9Here/card-river",
     "paper-multi-select": "rayabhagis/paper-multi-select#^0.1.0",
-    "paper-autocomplete-chips": "Neovici/paper-autocomplete-chips#^1.0.0"
+    "paper-autocomplete-chips": "Neovici/paper-autocomplete-chips#^1.0.0",
+    "display-accelerometer": "marcus7777/display-accelerometer"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -318,7 +319,7 @@
     "mediator-data": "1.0.0",
     "clipboard-input": "~1.2.1",
     "card-data": "master",
-    "paper-stepper": "master",
+    "paper-stepper": "v2.0-beta.5",
     "firebase": "^4.1.2",
     "moment": "~2.8.3",
     "iron-location": "1.0.0",
@@ -340,6 +341,7 @@
     "js-zip": "master",
     "iron-iconset-svg": "^1.1.0",
     "iron-iconset": "^1.0.0",
-    "paper-material": "^1.0.0"
+    "paper-material": "^1.0.0",
+    "iron-collapse": "^1.0.0"
   }
 }
