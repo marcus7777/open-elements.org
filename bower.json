@@ -8,7 +8,7 @@
     "app-pouchdb": "1.0.0",
     "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#^1.0.0",
     "iron-a11y-keys": "PolymerElements/iron-a11y-keys#^1.0.0",
-    "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#~1.0.0",
+    "iron-a11y-keys-behavior": "~1.1.9",
     "iron-ajax": "PolymerElements/iron-ajax",
     "iron-autogrow-textarea": "PolymerElements/iron-autogrow-textarea",
     "iron-behaviors": "PolymerElements/iron-behaviors",
@@ -26,7 +26,7 @@
     "iron-iconset": "PolymerElements/iron-iconset",
     "iron-iconset-svg": "PolymerElements/iron-iconset-svg",
     "iron-image": "PolymerElements/iron-image",
-    "iron-input": "PolymerElements/iron-input",
+    "iron-input": "PolymerElements/iron-input#~1.0.11",
     "iron-jsonp-library": "PolymerElements/iron-jsonp-library",
     "iron-localstorage": "PolymerElements/iron-localstorage",
     "iron-media-query": "PolymerElements/iron-media-query#^1.0.0",
@@ -168,7 +168,6 @@
     "more-routing": "PolymerLabs/more-routing#~1.0.0",
     "ean-rates": "marcus7777/ean-rates",
     "polymer-location-tracking": "MallingDesigns/polymer-location-tracking",
-    "pie-chart": "Saganic/pie-chart",
     "iron-swipeable-pages": "MeTaNoV/iron-swipeable-pages#~1.0.7",
     "emoji-text": "PolymerLabs/emoji-text#~1.0.0",
     "clipboard-input": "jshcrowthe/clipboard-input#~1.0.0",
@@ -275,7 +274,9 @@
     "card-river": "Hi9Here/card-river",
     "paper-multi-select": "rayabhagis/paper-multi-select#^0.1.0",
     "paper-autocomplete-chips": "Neovici/paper-autocomplete-chips#^1.0.0",
-    "display-accelerometer": "marcus7777/display-accelerometer"
+    "display-accelerometer": "marcus7777/display-accelerometer",
+    "sets-reps": "Hi9Here/sets-reps",
+    "pluralize": "^7.0.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
@@ -287,7 +288,7 @@
     "url-data": "master",
     "date-display": "master",
     "iron-accordions": "^1.1.0",
-    "iron-a11y-keys-behavior": "^1.1.5",
+    "iron-a11y-keys-behavior": "~1.1.9",
     "iron-ajax": "1.4.4",
     "iron-flex-layout": "^1.3.7",
     "iron-list": "^1.2.0",
@@ -342,6 +343,7 @@
     "iron-iconset-svg": "^1.1.0",
     "iron-iconset": "^1.0.0",
     "paper-material": "^1.0.0",
-    "iron-collapse": "^1.0.0"
+    "iron-collapse": "^1.0.0",
+    "paper-chip": "^1.1.2"
   }
 }
